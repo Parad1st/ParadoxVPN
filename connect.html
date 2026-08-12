@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Подключение — ParadoxVPN</title>
+<meta name="description" content="Как подключиться к ParadoxVPN на iOS, Android, macOS, Windows, Linux и Android TV.">
+<link rel="icon" href="img/logo.png" type="image/png">
+<link rel="preconnect" href="https://fonts.cdnfonts.com" crossorigin>
+<link href="https://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/sf-pro-text" rel="stylesheet">
+<style>
+:root{
+  --bg:#f5f5f7;
+  --tile:#fbfbfd;
+  --text:#1d1d1f;
+  --muted:#6e6e73;
+  --blue:#0071e3;
+  --radius:28px;
+  --gap:12px;
+  --font:"SF Pro Display","SF Pro Text",-apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:var(--font);background:var(--bg);color:var(--text);-webkit-font-smoothing:antialiased;line-height:1.5}
+img{max-width:100%;height:auto;display:block}
+.nav{position:sticky;top:0;z-index:100;height:52px;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;
+  padding:0 20px;background:rgba(251,251,253,.8);backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px)}
+.nav-brand{justify-self:start;display:flex;align-items:center;gap:9px;font-size:17px;font-weight:600;letter-spacing:-.02em;color:var(--text);text-decoration:none}
+.nav-logo{width:26px;height:26px;border-radius:7px;object-fit:cover}
+.nav-menu{display:none;gap:32px}
+.nav-menu a{font-size:13px;color:rgba(29,29,31,.8);text-decoration:none;padding:17px 2px;border-bottom:2px solid transparent}
+.nav-menu a:hover{color:var(--text)}
+.nav-menu a[aria-current="page"]{color:var(--text);border-bottom-color:var(--text)}
+.nav-cta-wrap{justify-self:end}
+.btn{display:inline-flex;align-items:center;justify-content:center;border:0;cursor:pointer;text-decoration:none;
+  border-radius:980px;font-family:var(--font);transition:transform .2s,opacity .2s}
+.btn:active{transform:scale(.97)}
+.btn:hover{opacity:.85}
+.btn:focus-visible{outline:3px solid var(--blue);outline-offset:2px}
+.btn-nav{background:#000;color:#fff;font-size:13px;font-weight:600;padding:8px 16px;min-height:34px}
+.btn-blue{background:var(--blue);color:#fff;font-size:15px;font-weight:400;padding:10px 20px;min-height:44px}
+.btn-light{background:#e8e8ed;color:var(--text);font-size:15px;font-weight:400;padding:10px 20px;min-height:44px}
+.btn-black{background:#000;color:#fff;font-size:15px;font-weight:400;padding:10px 20px;min-height:44px}
+@media (min-width:834px){
+  .nav-menu{display:flex}
+  .nav{padding:0 32px}
+}
+.head{padding:72px 20px 36px;text-align:center}
+.head h1{font-size:clamp(44px,7vw,96px);font-weight:600;letter-spacing:-.03em;line-height:1.04;margin-bottom:14px}
+.head p{font-size:clamp(17px,2vw,27px);font-weight:400;color:var(--muted);letter-spacing:-.01em}
+@media (min-width:1024px){
+  .head{padding:110px 40px 48px}
+}
+.pills-wrap{position:sticky;top:52px;z-index:90;background:rgba(245,245,247,.85);backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);padding:8px 0}
+.pills{display:flex;gap:8px;overflow-x:auto;max-width:1400px;margin:0 auto;padding:6px 16px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.pills::-webkit-scrollbar{display:none}
+.pill{flex:0 0 auto;border:0;cursor:pointer;border-radius:980px;background:#e8e8ed;color:var(--text);
+  font-family:var(--font);font-size:15px;font-weight:500;padding:10px 22px;min-height:44px;transition:background .25s,color .25s}
+.pill:hover{background:#dcdce1}
+.pill.active{background:#000;color:#fff}
+.pill:focus-visible{outline:3px solid var(--blue);outline-offset:2px}
+@media (min-width:834px){
+  .pills{justify-content:center}
+}
+.panels{max-width:1400px;margin:0 auto;padding:20px 12px 0}
+.panel{display:none;grid-template-columns:1fr;gap:var(--gap)}
+.panel.active{display:grid;animation:fade .45s cubic-bezier(.25,.1,.25,1)}
+@keyframes fade{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+@media (min-width:834px){
+  .panels{padding:28px 20px 0}
+  .panel.active{grid-template-columns:1fr 1fr;gap:14px}
+  .tile--full{grid-column:1/-1}
+}
+.tile{background:var(--tile);border-radius:var(--radius);padding:40px 24px}
+@media (min-width:1024px){
+  .tile{padding:56px 56px}
+}
+.app-head{display:flex;align-items:center;gap:14px;margin-bottom:14px}
+.app-icon{width:58px;height:58px;border-radius:14px;object-fit:cover;background:#f5f5f7;flex:0 0 auto}
+.app-name{font-size:22px;font-weight:600;letter-spacing:-.02em}
+.app-badge{display:inline-block;margin-top:2px;font-size:12px;font-weight:500;color:var(--muted);background:#f5f5f7;border-radius:980px;padding:3px 10px}
+.app-badge.rec{color:#1d8a3c;background:#eaf7ec}
+.app-desc{color:var(--muted);font-size:16px;margin-bottom:22px;max-width:640px}
+.links{display:flex;flex-wrap:wrap;gap:10px}
+.steps-title{font-size:22px;font-weight:600;letter-spacing:-.02em;margin-bottom:20px}
+.steps-body{display:grid;gap:28px;align-items:start}
+@media (min-width:1024px){
+  .steps-body{grid-template-columns:1.15fr .85fr;gap:56px}
+  .steps-body .subbox{margin-top:0;position:sticky;top:120px}
+}
+.step{display:flex;gap:18px;padding:16px 0;border-top:1px solid #e8e8ed}
+.step:first-of-type{border-top:0}
+.step-n{width:34px;height:34px;border-radius:50%;background:#000;color:#fff;display:grid;place-items:center;font-size:16px;font-weight:600;flex:0 0 auto}
+.step b{display:block;font-size:17px;font-weight:600;letter-spacing:-.01em}
+.step span{color:var(--muted);font-size:15px}
+.subbox{background:#f5f5f7;border-radius:18px;padding:22px}
+.subbox h4{font-size:15px;font-weight:600;margin-bottom:4px}
+.subbox p{font-size:13px;color:var(--muted);margin-bottom:12px}
+.subrow{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.suburl{flex:1;min-width:200px;background:#fff;border-radius:12px;padding:12px 14px;
+  font-family:"SF Mono",ui-monospace,Menlo,Consolas,monospace;font-size:13px;color:var(--muted);word-break:break-all}
+.tv-layout{display:grid;gap:36px}
+@media (min-width:1024px){
+  .tv-layout{grid-template-columns:.85fr 1.15fr;gap:64px;align-items:center}
+}
+.tv-scene{position:relative;width:min(430px,100%);margin:0 auto}
+.tv{background:#1d1d1f;border-radius:18px;padding:14px}
+.tv-screen{background:#fff;border-radius:8px;padding:26px 20px;display:flex;flex-direction:column;align-items:center;gap:12px}
+.qr-holder{position:relative;padding:10px;border:1px solid #e8e8ed;border-radius:12px}
+.qr-holder svg{display:block;width:150px;height:150px}
+.scanline{position:absolute;left:6%;right:6%;height:2px;border-radius:2px;background:var(--blue);opacity:.85;animation:scan 2.6s ease-in-out infinite}
+@keyframes scan{0%,100%{top:8%}50%{top:90%}}
+.tv-label{font-size:13px;color:#86868b}
+.tv-neck{width:56px;height:16px;background:#1d1d1f;margin:0 auto}
+.tv-base{width:140px;height:10px;background:#1d1d1f;border-radius:5px;margin:0 auto}
+.phone-mini{position:absolute;right:-8px;bottom:-16px;width:76px;height:148px;background:#0a0a0a;border-radius:18px;padding:7px;box-shadow:0 14px 34px rgba(0,0,0,.32)}
+.phone-mini .pm-screen{border-radius:12px;height:100%;display:grid;place-items:center;
+  background:
+   radial-gradient(120% 120% at 10% 10%, rgba(243,182,216,.95) 0%, rgba(243,182,216,0) 60%),
+   radial-gradient(120% 120% at 90% 90%, rgba(196,166,238,.95) 0%, rgba(196,166,238,0) 60%),
+   #f6ecdf}
+.phone-mini .pm-screen svg{width:26px;height:26px}
+.qr-action{margin-top:26px;background:#f5f5f7;border-radius:18px;padding:22px}
+.qr-action h4{font-size:15px;font-weight:600;margin-bottom:4px}
+.qr-action .qa-hint{font-size:13px;color:var(--muted);margin-bottom:14px}
+.qr-area{border-radius:14px;overflow:hidden;background:#000;min-height:240px;margin-bottom:12px}
+.qr-area video{width:100%;display:block}
+.qr-camera-hint{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;min-height:240px;padding:24px;text-align:center;color:#f5f5f7;font-size:14px}
+.qr-result{margin-top:14px}
+.qr-result .qr-label{display:block;font-size:13px;color:var(--muted);margin-bottom:8px}
+.qr-ok{color:#1d8a3c;font-weight:600;font-size:15px;margin-bottom:10px}
+.qr-actions-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px}
+[hidden]{display:none!important}
+footer{padding:44px 20px 60px;max-width:1400px;margin:0 auto}
+.footnotes{font-size:12px;color:var(--muted);border-top:1px solid #d2d2d7;padding-top:20px}
+.copyright{margin-top:20px;font-size:12px;color:var(--muted)}
+@media (min-width:1024px){
+  footer{padding:44px 40px 60px}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important}
+}
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <a class="nav-brand" href="index.html"><img class="nav-logo" src="img/logo.png" alt="" width="26" height="26">ParadoxVPN</a>
+  <div class="nav-menu">
+    <a href="index.html">Обзор</a>
+    <a href="connect.html" aria-current="page">Подключение</a>
+  </div>
+  <div class="nav-cta-wrap"><a class="btn btn-nav" href="connect.html">Подключиться</a></div>
+</nav>
+
+<header class="head">
+  <h1>Подключение.</h1>
+  <p>Выберите платформу. Остальное — за минуту.</p>
+</header>
+
+<div class="pills-wrap">
+  <div class="pills" role="tablist" aria-label="Платформы">
+    <button class="pill active" role="tab" aria-selected="true"  data-tab="ios">iOS</button>
+    <button class="pill" role="tab" aria-selected="false" data-tab="android">Android</button>
+    <button class="pill" role="tab" aria-selected="false" data-tab="macos">macOS</button>
+    <button class="pill" role="tab" aria-selected="false" data-tab="windows">Windows</button>
+    <button class="pill" role="tab" aria-selected="false" data-tab="linux">Linux</button>
+    <button class="pill" role="tab" aria-selected="false" data-tab="tv">Android TV</button>
+  </div>
+</div>
+
+<main class="panels">
+
+  <section class="panel active" id="ios" role="tabpanel">
+    <div class="tile">
+      <div class="app-head"><img class="app-icon" src="img/icons/happ.png" alt="" width="58" height="58" loading="lazy">
+        <div><div class="app-name">Happ</div><span class="app-badge rec">Рекомендуем</span></div></div>
+      <p class="app-desc">Современный клиент со всеми протоколами из коробки. Быстрый, лёгкий, бесплатный.</p>
+      <div class="links">
+        <a class="btn btn-blue" href="https://apps.apple.com/us/app/happ-proxy-utility/id6504287215" target="_blank" rel="noopener">App Store (Global)</a>
+        <a class="btn btn-light" href="https://apps.apple.com/ru/app/happ-proxy-utility-plus/id6746188973" target="_blank" rel="noopener">App Store (Россия)</a>
+      </div>
+    </div>
+    <div class="tile">
+      <div class="app-head"><img class="app-icon" src="img/icons/shadowrocket.png" alt="" width="58" height="58" loading="lazy">
+        <div><div class="app-name">Shadowrocket</div><span class="app-badge">Альтернатива</span></div></div>
+      <p class="app-desc">Классика для продвинутых пользователей. Гибкая маршрутизация и тонкие настройки.</p>
+      <div class="links">
+        <a class="btn btn-blue" href="https://apps.apple.com/us/app/shadowrocket/id932747118" target="_blank" rel="noopener">App Store (Global)</a>
+        <a class="btn btn-light" href="https://apps.apple.com/ru/app/shadowrocket/id932747118" target="_blank" rel="noopener">App Store (Россия)</a>
+      </div>
+    </div>
+    <div class="tile tile--full">
+      <div class="steps-body">
+        <div>
+          <div class="steps-title">Как подключиться</div>
+          <div class="step"><div class="step-n">1</div><div><b>Установите приложение</b><span>Happ или Shadowrocket из App Store.</span></div></div>
+          <div class="step"><div class="step-n">2</div><div><b>Скопируйте ссылку подписки</b><span>Кнопка «Скопировать» рядом.</span></div></div>
+          <div class="step"><div class="step-n">3</div><div><b>Добавьте подписку</b><span>Happ: «+» → вставить из буфера. Shadowrocket: «+» → Subscription → вставить URL.</span></div></div>
+          <div class="step"><div class="step-n">4</div><div><b>Подключитесь</b><span>Выберите сервер и нажмите кнопку подключения.</span></div></div>
+        </div>
+        <div class="subbox">
+          <h4>Ссылка подписки</h4><p>Вставьте её в приложение — серверы подтянутся автоматически.</p>
+          <div class="subrow"><span class="suburl">https://parad1st.github.io/ParadoxVPN/sub/free</span><button class="btn btn-black copy">Скопировать</button></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="panel" id="android" role="tabpanel">
+    <div class="tile">
+      <div class="app-head"><img class="app-icon" src="img/icons/happ.png" alt="" width="58" height="58" loading="lazy">
+        <div><div class="app-name">Happ</div><span class="app-badge rec">Рекомендуем</span></div></div>
+      <p class="app-desc">Лучший клиент для Android. Все протоколы, автообновление подписки, минимальный расход батареи.</p>
+      <div class="links">
+        <a class="btn btn-blue" href="https://play.google.com/store/apps/details?id=com.happproxy" target="_blank" rel="noopener">Google Play</a>
+        <a class="btn btn-light" href="https://github.com/Happ-proxy/happ-android/releases/latest/download/Happ.apk" target="_blank" rel="noopener">APK с GitHub</a>
+      </div>
+    </div>
+    <div class="tile">
+      <div class="steps-body">
+        <div>
+          <div class="steps-title">Как подключиться</div>
+          <div class="step"><div class="step-n">1</div><div><b>Установите Happ</b><span>Из Google Play или APK-файлом.</span></div></div>
+          <div class="step"><div class="step-n">2</div><div><b>Скопируйте ссылку подписки</b><span>Кнопка «Скопировать» рядом.</span></div></div>
+          <div class="step"><div class="step-n">3</div><div><b>Добавьте подписку</b><span>Откройте Happ → «+» → вставить из буфера обмена.</span></div></div>
+          <div class="step"><div class="step-n">4</div><div><b>Подключитесь</b><span>Выберите сервер и нажмите большую кнопку.</span></div></div>
+        </div>
+        <div class="subbox">
+          <h4>Ссылка подписки</h4><p>Вставьте её в приложение — серверы подтянутся автоматически.</p>
+          <div class="subrow"><span class="suburl">https://parad1st.github.io/ParadoxVPN/sub/free</span><button class="btn btn-black copy">Скопировать</button></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="panel" id="macos" role="tabpanel">
+    <div class="tile">
+      <div class="app-head"><img class="app-icon" src="img/icons/happ.png" alt="" width="58" height="58" loading="lazy">
+        <div><div class="app-name">Happ</div><span class="app-badge rec">Рекомендуем</span></div></div>
+      <p class="app-desc">Родной клиент для macOS. Универсальный билд для Intel и Apple Silicon, жизнь в строке меню.</p>
+      <div class="links">
+        <a class="btn btn-blue" href="https://apps.apple.com/us/app/happ-proxy-utility/id6504287215" target="_blank" rel="noopener">App Store (Global)</a>
+        <a class="btn btn-light" href="https://apps.apple.com/ru/app/happ-proxy-utility/id6783623643" target="_blank" rel="noopener">App Store (Россия)</a>
+        <a class="btn btn-light" href="https://github.com/Happ-proxy/happ-desktop/releases/latest/download/Happ.macOS.universal.dmg" target="_blank" rel="noopener">DMG с GitHub</a>
+      </div>
+    </div>
+    <div class="tile">
+      <div class="app-head"><img class="app-icon" src="img/icons/v2raytun.png" alt="" width="58" height="58" loading="lazy">
+        <div><div class="app-name">v2RayTun</div><span class="app-badge">Альтернатива</span></div></div>
+      <p class="app-desc">Мощный клиент с расширенной маршрутизацией и собственным движком правил.</p>
+      <div class="links">
+        <a class="btn btn-blue" href="https://apps.apple.com/en/app/v2raytun/id6476628951" target="_blank" rel="noopener">App Store</a>
+      </div>
+    </div>
+    <div class="tile">
+      <div class="app-head"><img class="app-icon" src="img/icons/throne.png" alt="" width="58" height="58" loading="lazy">
+        <div><div class="app-name">Throne</div><span class="app-badge">Open Source</span></div></div>
+      <p class="app-desc">Открытый клиент для тех, кто любит держать всё под контролем.</p>
+      <div class="links">
+        <a class="btn btn-blue" href="https://github.com/throneproj/Throne/releases/latest/download/Throne-1.0.13-macos-amd64.zip" target="_blank" rel="noopener">ZIP для macOS</a>
+      </div>
+    </div>
+    <div class="tile">
+      <div class="steps-body">
+        <div>
+          <div class="steps-title">Как подключиться</div>
+          <div class="step"><div class="step-n">1</div><div><b>Установите приложение</b><span>Happ из App Store или DMG-файлом.</span></div></div>
+          <div class="step"><div class="step-n">2</div><div><b>Скопируйте ссылку подписки</b><span>Кнопка «Скопировать» рядом.</span></div></div>
+          <div class="step"><div class="step-n">3</div><div><b>Импортируйте подписку</b><span>Happ: Profiles → «+» → Import from clipboard.</span></div></div>
+          <div class="step"><div class="step-n">4</div><div><b>Подключитесь</b><span>Иконка в строке меню → Connect.</span></div></div>
+        </div>
+        <div class="subbox">
+          <h4>Ссылка подписки</h4><p>Вставьте её в приложение — серверы подтянутся автоматически.</p>
+          <div class="subrow"><span class="suburl">https://parad1st.github.io/ParadoxVPN/sub/free</span><button class="btn btn-black copy">Скопировать</button></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="panel" id="windows" role="tabpanel">
+    <div class="tile">
+      <div class="app-head"><img class="app-icon" src="img/icons/happ.png" alt="" width="58" height="58" loading="lazy">
+        <div><div class="app-name">Happ</div><span class="app-badge rec">Рекомендуем</span></div></div>
+      <p class="app-desc">Официальный десктопный клиент. Лёгкий, быстрый, живёт в трее и не мешает.</p>
+      <div class="links">
+        <a class="btn btn-blue" href="https://github.com/Happ-proxy/happ-desktop/releases/latest/download/setup-Happ.x64.exe" target="_blank" rel="noopener">Установщик (x64)</a>
+      </div>
+    </div>
+    <div class="tile">
+      <div class="app-head"><img class="app-icon" src="img/icons/v2raytun.png" alt="" width="58" height="58" loading="lazy">
+        <div><div class="app-name">v2RayTun</div><span class="app-badge">Альтернатива</span></div></div>
+      <p class="app-desc">Расширенная маршрутизация, гибкие правила, стабильность.</p>
+      <div class="links">
+        <a class="btn btn-blue" href="https://storage.v2raytun.com/v2RayTun_Setup.exe" target="_blank" rel="noopener">Установщик</a>
+      </div>
+    </div>
+    <div class="tile">
+      <div class="app-head"><img class="app-icon" src="img/icons/throne.png" alt="" width="58" height="58" loading="lazy">
+        <div><div class="app-name">Throne</div><span class="app-badge">Open Source</span></div></div>
+      <p class="app-desc">Открытый Qt-клиент для продвинутых сценариев.</p>
+      <div class="links">
+        <a class="btn btn-blue" href="https://github.com/throneproj/Throne/releases/download/1.0.13/Throne-1.0.13-windows64-installer.exe" target="_blank" rel="noopener">Установщик (x64)</a>
+      </div>
+    </div>
+    <div class="tile">
+      <div class="steps-body">
+        <div>
+          <div class="steps-title">Как подключиться</div>
+          <div class="step"><div class="step-n">1</div><div><b>Установите приложение</b><span>Запустите установщик и следуйте подсказкам.</span></div></div>
+          <div class="step"><div class="step-n">2</div><div><b>Скопируйте ссылку подписки</b><span>Кнопка «Скопировать» рядом.</span></div></div>
+          <div class="step"><div class="step-n">3</div><div><b>Импортируйте подписку</b><span>Happ: Profiles → «+» → Import from clipboard.</span></div></div>
+          <div class="step"><div class="step-n">4</div><div><b>Подключитесь</b><span>Connect в системном трее.</span></div></div>
+        </div>
+        <div class="subbox">
+          <h4>Ссылка подписки</h4><p>Вставьте её в приложение — серверы подтянутся автоматически.</p>
+          <div class="subrow"><span class="suburl">https://parad1st.github.io/ParadoxVPN/sub/free</span><button class="btn btn-black copy">Скопировать</button></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="panel" id="linux" role="tabpanel">
+    <div class="tile">
+      <div class="app-head"><img class="app-icon" src="img/icons/happ.png" alt="" width="58" height="58" loading="lazy">
+        <div><div class="app-name">Happ</div><span class="app-badge rec">Рекомендуем</span></div></div>
+      <p class="app-desc">Пакеты для всех основных дистрибутивов. Ставится одной командой.</p>
+      <div class="links">
+        <a class="btn btn-blue" href="https://github.com/Happ-proxy/happ-desktop/releases/latest/download/Happ.linux.x64.deb" target="_blank" rel="noopener">.deb (Debian/Ubuntu)</a>
+        <a class="btn btn-light" href="https://github.com/Happ-proxy/happ-desktop/releases/latest/download/Happ.linux.x64.rpm" target="_blank" rel="noopener">.rpm (Fedora)</a>
+        <a class="btn btn-light" href="https://github.com/Happ-proxy/happ-desktop/releases/latest/download/Happ.linux.x64.pkg.tar.zst" target="_blank" rel="noopener">.pkg.tar.zst (Arch)</a>
+      </div>
+    </div>
+    <div class="tile">
+      <div class="app-head"><img class="app-icon" src="img/icons/throne.png" alt="" width="58" height="58" loading="lazy">
+        <div><div class="app-name">Throne</div><span class="app-badge">Open Source</span></div></div>
+      <p class="app-desc">Открытый Qt-клиент с полной поддержкой протоколов.</p>
+      <div class="links">
+        <a class="btn btn-blue" href="https://github.com/throneproj/Throne/releases/download/1.0.13/Throne-1.0.13-debian-x64.deb" target="_blank" rel="noopener">.deb (Debian/Ubuntu)</a>
+      </div>
+    </div>
+    <div class="tile tile--full">
+      <div class="steps-body">
+        <div>
+          <div class="steps-title">Как подключиться</div>
+          <div class="step"><div class="step-n">1</div><div><b>Установите пакет</b><span>sudo dpkg -i Happ.linux.x64.deb — или ваш пакетный менеджер.</span></div></div>
+          <div class="step"><div class="step-n">2</div><div><b>Скопируйте ссылку подписки</b><span>Кнопка «Скопировать» рядом.</span></div></div>
+          <div class="step"><div class="step-n">3</div><div><b>Импортируйте подписку</b><span>Happ: Profiles → «+» → Import from clipboard.</span></div></div>
+          <div class="step"><div class="step-n">4</div><div><b>Подключитесь</b><span>Connect в трее.</span></div></div>
+        </div>
+        <div class="subbox">
+          <h4>Ссылка подписки</h4><p>Вставьте её в приложение — серверы подтянутся автоматически.</p>
+          <div class="subrow"><span class="suburl">https://parad1st.github.io/ParadoxVPN/sub/free</span><button class="btn btn-black copy">Скопировать</button></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="panel" id="tv" role="tabpanel">
+    <div class="tile tile--full">
+      <div class="app-head"><img class="app-icon" src="img/icons/v2raytun.png" alt="" width="58" height="58" loading="lazy">
+        <div><div class="app-name">v2RayTun на телевизоре</div><span class="app-badge rec">Android TV</span></div></div>
+      <p class="app-desc">Скачайте v2RayTun с Play Market прямо на телевизоре. Ничего вводить с пульта не придётся: телевизор покажет QR-код, телефон считает его и получит код для подключения.</p>
+
+      <div class="tv-layout" style="margin-top:28px">
+        <div class="tv-scene" aria-hidden="true">
+          <div class="tv">
+            <div class="tv-screen">
+              <div class="qr-holder">
+                <svg viewBox="0 0 29 29" shape-rendering="crispEdges">
+                  <rect width="29" height="29" fill="#fff"/>
+                  <g fill="#1d1d1f">
+                    <rect x="0" y="0" width="7" height="7"/><rect x="22" y="0" width="7" height="7"/><rect x="0" y="22" width="7" height="7"/>
+                    <rect x="10" y="2" width="2" height="2"/><rect x="14" y="4" width="2" height="2"/><rect x="18" y="2" width="2" height="2"/>
+                    <rect x="12" y="8" width="2" height="2"/><rect x="16" y="10" width="2" height="2"/><rect x="20" y="12" width="2" height="2"/>
+                    <rect x="2" y="10" width="2" height="2"/><rect x="4" y="14" width="2" height="2"/><rect x="8" y="12" width="2" height="2"/>
+                    <rect x="10" y="16" width="2" height="2"/><rect x="14" y="18" width="2" height="2"/><rect x="18" y="16" width="2" height="2"/>
+                    <rect x="22" y="20" width="2" height="2"/><rect x="24" y="24" width="2" height="2"/><rect x="10" y="22" width="2" height="2"/>
+                    <rect x="14" y="24" width="2" height="2"/><rect x="4" y="20" width="2" height="2"/><rect x="20" y="8" width="2" height="2"/>
+                    <rect x="24" y="10" width="2" height="2"/><rect x="8" y="8" width="2" height="2"/>
+                  </g>
+                  <g fill="#fff"><rect x="2" y="2" width="3" height="3"/><rect x="24" y="2" width="3" height="3"/><rect x="2" y="24" width="3" height="3"/></g>
+                </svg>
+                <div class="scanline"></div>
+              </div>
+              <div class="tv-label">v2RayTun • «Добавить подписку» • QR на экране</div>
+            </div>
+          </div>
+          <div class="tv-neck"></div><div class="tv-base"></div>
+          <div class="phone-mini"><div class="pm-screen">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#1d1d1f" stroke-width="2" stroke-linecap="round"><path d="M4 8V6a2 2 0 0 1 2-2h2M16 4h2a2 2 0 0 1 2 2v2M20 16v2a2 2 0 0 1-2 2h-2M8 20H6a2 2 0 0 1-2-2v-2"/></svg>
+          </div></div>
+        </div>
+
+        <div>
+          <div class="step"><div class="step-n">1</div><div><b>Установите v2RayTun</b><span>Откройте Play Market на телевизоре, найдите «v2RayTun» и установите.</span></div></div>
+          <div class="step"><div class="step-n">2</div><div><b>Откройте добавление подписки</b><span>В приложении выберите «Добавить подписку» — на экране появится QR-код.</span></div></div>
+          <div class="step"><div class="step-n">3</div><div><b>Сканируйте QR с телефона</b><span>Нажмите кнопку ниже и наведите камеру на экран телевизора.</span></div></div>
+          <div class="step"><div class="step-n">4</div><div><b>Скопируйте код</b><span>Телефон покажет код — скопируйте его и подтвердите на телевизоре.</span></div></div>
+
+          <div class="qr-action">
+            <h4>Сканер QR-кода</h4>
+            <p class="qa-hint">Работает с телефона: камера считает QR с экрана телевизора и покажет код для копирования.</p>
+            <button class="btn btn-black" id="btn-scan">Сканировать QR с телевизора</button>
+            <div class="qr-area" id="qr-area" hidden></div>
+            <div class="qr-result" id="qr-result" hidden>
+              <p class="qr-ok" id="qr-ok" hidden>✅ QR считан</p>
+              <span class="qr-label">Код с телевизора</span>
+              <div class="subrow">
+                <span class="suburl" id="tv-code"></span>
+                <button class="btn btn-black" id="btn-copy-code">Скопировать код</button>
+              </div>
+              <div class="qr-actions-row">
+                <button class="btn btn-light" id="btn-scan-again">Сканировать ещё раз</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="subbox" style="margin-top:32px">
+        <h4>Ссылка подписки (вручную)</h4><p>Если сканер недоступен — скопируйте ссылку и добавьте её в v2RayTun.</p>
+        <div class="subrow"><span class="suburl">https://parad1st.github.io/ParadoxVPN/sub/free</span><button class="btn btn-black copy">Скопировать</button></div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="footnotes">Ссылки ведут на официальные магазины приложений и репозитории разработчиков.</div>
+  <div class="copyright">© 2026 ParadoxVPN. Создано для свободного интернета.</div>
+</footer>
+
+<script>
+const SUB_URL = "https://parad1st.github.io/ParadoxVPN/sub/free";
+
+const pills = [...document.querySelectorAll('.pill')];
+pills.forEach(p => p.addEventListener('click', () => {
+  pills.forEach(t => { t.classList.remove('active'); t.setAttribute('aria-selected','false'); });
+  document.querySelectorAll('.panel').forEach(c => c.classList.remove('active'));
+  p.classList.add('active'); p.setAttribute('aria-selected','true');
+  document.getElementById(p.dataset.tab).classList.add('active');
+}));
+document.querySelector('.pills').addEventListener('keydown', e => {
+  const i = pills.indexOf(document.activeElement);
+  if (i < 0) return;
+  if (e.key === 'ArrowRight') { e.preventDefault(); pills[(i+1)%pills.length].focus(); }
+  if (e.key === 'ArrowLeft')  { e.preventDefault(); pills[(i-1+pills.length)%pills.length].focus(); }
+});
+
+function copyText(text, btn, okLabel) {
+  const done = () => { const old = btn.textContent; btn.textContent = okLabel; setTimeout(() => btn.textContent = old, 1800); };
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(text).then(done).catch(() => { fallbackCopy(text); done(); });
+  } else { fallbackCopy(text); done(); }
+}
+function fallbackCopy(text) {
+  const t = document.createElement('textarea'); t.value = text;
+  t.style.position = 'fixed'; t.style.opacity = '0';
+  document.body.appendChild(t); t.select();
+  try { document.execCommand('copy'); } catch (e) {}
+  document.body.removeChild(t);
+}
+document.querySelectorAll('.copy').forEach(btn => btn.addEventListener('click', () => copyText(SUB_URL, btn, 'Готово ✓')));
+
+let qrInstance = null;
+const btnScan = document.getElementById('btn-scan');
+const qrArea = document.getElementById('qr-area');
+const qrResult = document.getElementById('qr-result');
+const tvCode = document.getElementById('tv-code');
+
+function loadQrLib() {
+  return new Promise((res, rej) => {
+    if (window.Html5Qrcode) return res();
+    const s = document.createElement('script');
+    s.src = 'https://unpkg.com/html5-qrcode@2.3.8/html5-qrcode.min.js';
+    s.onload = res; s.onerror = rej;
+    document.head.appendChild(s);
+  });
+}
+function showCameraHint() {
+  qrArea.innerHTML = '<div class="qr-camera-hint"><p>Разрешите доступ к камере во всплывающем окне браузера и наведите её на QR-код на экране телевизора.</p></div>';
+}
+async function stopScanner() {
+  if (qrInstance) { try { await qrInstance.stop(); qrInstance.clear(); } catch (e) {} qrInstance = null; }
+}
+async function startScan() {
+  qrResult.hidden = true;
+  qrArea.hidden = false;
+  btnScan.hidden = true;
+  try { await loadQrLib(); } catch (e) {
+    qrArea.innerHTML = '<div class="qr-camera-hint"><p>Не удалось загрузить сканер. Скопируйте ссылку подписки вручную ниже.</p></div>';
+    return;
+  }
+  await stopScanner();
+  qrArea.innerHTML = '';
+  showCameraHint();
+  qrInstance = new Html5Qrcode('qr-area');
+  qrInstance.start(
+    { facingMode: 'environment' },
+    { fps: 10, qrbox: { width: 220, height: 220 } },
+    onDecoded,
+    () => {}
+  ).catch(() => showCameraHint());
+}
+async function onDecoded(text) {
+  await stopScanner();
+  qrArea.hidden = true;
+  btnScan.hidden = false;
+  let key = String(text || '').trim();
+  try { const p = JSON.parse(key); if (p && p.key != null) key = String(p.key).trim(); } catch (e) {}
+  tvCode.textContent = key;
+  document.getElementById('qr-ok').hidden = false;
+  qrResult.hidden = false;
+}
+btnScan.addEventListener('click', startScan);
+document.getElementById('btn-scan-again').addEventListener('click', startScan);
+document.getElementById('btn-copy-code').addEventListener('click', function () {
+  copyText(tvCode.textContent.trim(), this, 'Скопировано ✓');
+});
+</script>
+</body>
+</html>
