@@ -1,5 +1,5 @@
 {
-  "remarks": "🔥 ParadoxVPN",
+  "remarks": "🔥 ParadoxVPN | АВТО",
   "dns": {
     "queryStrategy": "UseIPv4",
     "servers": [
@@ -29,702 +29,140 @@
           "domain:2gis.uz",
           "domain:300.ya.ru",
           "domain:5ka.ru",
-          "domain:742231.ms.ok.ru",
-          "domain:8ofpsm7zqu.a.trbcdn.net",
           "domain:ad.mail.ru",
           "domain:adfox.yandex.ru",
           "domain:ads.sber.ru",
-          "domain:ads.viqeo.tv",
           "domain:ads.yandex",
           "domain:ads.yandex.ru",
           "domain:adv.vk.com",
-          "domain:adv.yandex.com",
           "domain:adv.yandex.ru",
-          "domain:adygeya.ru",
           "domain:aeroflot.ru",
           "domain:afisha.ru",
-          "domain:aif.ru",
-          "domain:alfabank.oavdo.amc",
           "domain:alfabank.ru",
           "domain:alfabank.st",
           "domain:alfadirect.ru",
           "domain:alfaleasing.ru",
           "domain:alfastrah.ru",
-          "domain:alformacap.com",
-          "domain:alformacapital.com",
-          "domain:algoritmika.org",
-          "domain:alt-ad.mail.ru",
-          "domain:ams2-cdn.2gis.com",
           "domain:an.yandex.ru",
           "domain:analytics.vk.com",
           "domain:api-maps.yandex.ru",
-          "domain:api.blackrussia.online",
-          "domain:api.oneme.ru",
           "domain:apiok.ru",
-          "domain:appmetrica.yandex.com",
-          "domain:appmetrica.yandex.net",
           "domain:appmetrica.yandex.ru",
-          "domain:appmetrica.yango.com",
           "domain:appsmail.ru",
           "domain:attachmail.ru",
-          "domain:attachmy.com",
           "domain:avito.ru",
           "domain:avito.st",
-          "domain:baltbank.ru",
           "domain:beeline.ru",
           "domain:boxberry.ru",
-          "domain:bps-sberbank.by",
-          "domain:bs.yandex.ru",
-          "domain:busfor.ru",
-          "domain:cabconnect.org",
-          "domain:capitalt.ru",
           "domain:cbr.ru",
           "domain:cdek.ru",
           "domain:cdn-tinkoff.ru",
           "domain:cdn-vk.net",
           "domain:cdn-vk.ru",
           "domain:cdnmail.ru",
-          "domain:cdnsix.vk-com.ru",
           "domain:citilink.ru",
           "domain:clck.yandex.ru",
-          "domain:clickstream.sberbank.ru",
           "domain:cloud.ru",
-          "domain:cloudru.cn",
-          "domain:clstorage.net",
           "domain:connectivitycheck.gstatic.com",
           "domain:counter.yandex.ru",
-          "domain:cybersport.ru",
-          "domain:d-assets.2gis.ru",
-          "domain:d5de4k0ri8jba7ucdbt6.apigw.yandexcloud.net",
-          "domain:datacloudmy.com",
-          "domain:dbankcdn.ru",
-          "domain:dbankcloud.ru",
-          "domain:dev-my.com",
-          "domain:digital-wb.ru",
-          "domain:digital.gov.ru",
-          "domain:digitalwb.ru",
-          "domain:disk.2gis.com",
-          "domain:dl.black-sys.com",
-          "domain:dl.blackrussia.online",
-          "domain:dnevnik.ru",
-          "domain:dns-shop.ru",
-          "domain:dom.gosuslugi.ru",
-          "domain:dom.ru",
-          "domain:drive2.ru",
-          "domain:driveawaytaxi.org",
-          "domain:drweb.com",
-          "domain:drweb.ru",
           "domain:dzen.ru",
           "domain:dzeninfra.ru",
           "domain:eldorado.ru",
           "domain:esia.gosuslugi.ru",
-          "domain:etradebook.ru",
-          "domain:fastvps.ru",
-          "domain:fb-cdn.premier.one",
-          "domain:fd.oneme.ru",
-          "domain:flypobeda.ru",
           "domain:forbes.ru",
           "domain:gazeta.ru",
-          "domain:gazprombank.com",
-          "domain:gazprombank.investments",
           "domain:gazprombank.ru",
-          "domain:gazprombank.tech",
           "domain:giga.chat",
           "domain:gismeteo.ru",
           "domain:gitverse.ru",
           "domain:go.yandex.ru",
-          "domain:gogettaxi.org",
-          "domain:goskey.ru",
-          "domain:gosteh.ru",
           "domain:gosuslugi.ru",
-          "domain:goup.ai",
           "domain:gov.ru",
-          "domain:gu-st.ru",
           "domain:headhunter.ru",
           "domain:hh.ru",
           "domain:homecredit.ru",
-          "domain:i.oneme.ru",
-          "domain:icqvideo.com",
-          "domain:imgsmail.ru",
-          "domain:insideok.ru",
-          "domain:investalfabank.com",
-          "domain:it-katok.ru",
           "domain:ivi.ru",
-          "domain:jua5fcnytm.a.trbcdn.net",
-          "domain:kaspersky.com",
           "domain:kaspersky.ru",
-          "domain:kassir.ru",
-          "domain:kazan.express",
-          "domain:kazanexpress.ru",
-          "domain:kinopoisk-ru.clstorage.net",
           "domain:kinopoisk.ru",
-          "domain:kontur.host",
-          "domain:kontur.ru",
           "domain:kp.ru",
           "domain:kuper.ru",
-          "domain:lamoda.am",
-          "domain:lamoda.by",
-          "domain:lamoda.kz",
           "domain:lamoda.ru",
-          "domain:lamoda.uz",
-          "domain:leader-id.ru",
           "domain:lemanapro.ru",
-          "domain:lenta.com",
           "domain:lenta.ru",
           "domain:litres.ru",
-          "domain:log.dzen.ru",
-          "domain:magnit-ru.injector.3ebra.net",
           "domain:magnit.com",
           "domain:magnit.ru",
-          "domain:magnitcosmetic.ru",
-          "domain:mail.rambler.ru",
           "domain:mail.ru",
           "domain:maps.yandex.ru",
-          "domain:max.ru",
           "domain:mc.yandex.ru",
           "domain:megafon.ru",
           "domain:megamarket.ru",
-          "domain:megamarket.tech",
-          "domain:meteum.ai",
-          "domain:metrics.viqeo.tv",
-          "domain:metrika.yandex.com",
-          "domain:metrika.yandex.net",
           "domain:metrika.yandex.ru",
-          "domain:miniapps.max.ru",
           "domain:mir.ru",
-          "domain:mnogolososya.ru",
           "domain:moex.com",
-          "domain:more.tv",
           "domain:mos.ru",
-          "domain:mosreg.ru",
-          "domain:mpgw-my.com",
-          "domain:mradx.net",
-          "domain:mrgcdn.ru",
-          "domain:ms.dzen.ru",
-          "domain:ms.vk.com",
-          "domain:ms.vk.ru",
-          "domain:mts-bank.ru",
           "domain:mts.ru",
-          "domain:mtscdn.ru",
-          "domain:mtsdengi.ru",
-          "domain:music.yandex.ru",
           "domain:mvideo.ru",
-          "domain:mvk.com",
-          "domain:my-tbank.ru",
           "domain:my.com",
-          "domain:mycdn.me",
-          "domain:mymts.ru",
-          "domain:myvcloud.com",
           "domain:nalog.ru",
-          "domain:naydex.net",
-          "domain:novayagazeta-europe.eu",
           "domain:nspk.ru",
           "domain:ok.ru",
           "domain:okcdn.ru",
-          "domain:okko.sport",
           "domain:okko.tv",
-          "domain:okkoapi.tv",
           "domain:oneme.ru",
           "domain:otkritie.ru",
-          "domain:ozon-credit.ru",
-          "domain:ozon-dostavka.ru",
-          "domain:ozon-tech.ru",
-          "domain:ozon.by",
-          "domain:ozon.com",
-          "domain:ozon.com.by",
-          "domain:ozon.com.kz",
-          "domain:ozon.dev",
-          "domain:ozon.express",
-          "domain:ozon.kz",
-          "domain:ozon.li",
           "domain:ozon.ru",
-          "domain:ozon.st",
-          "domain:ozon.tech",
-          "domain:ozon.tm",
-          "domain:ozon.travel",
-          "domain:ozonapis.com",
-          "domain:ozoncamp.pro",
-          "domain:ozoncard.ru",
-          "domain:ozoncom.by",
-          "domain:ozoncorporate.ru",
-          "domain:ozone.ru",
-          "domain:ozonglobalevents.com",
-          "domain:ozonpartners.by",
-          "domain:ozonpartners.ru",
-          "domain:ozonrocet.by",
-          "domain:ozonroket.by",
-          "domain:ozonru.co.il",
-          "domain:ozonru.com",
-          "domain:ozonru.eu",
-          "domain:ozonru.me",
-          "domain:ozonsport.ru",
-          "domain:ozonstatus.ru",
-          "domain:ozonusercontent.com",
-          "domain:paywb.com",
+          "domain:ozon.by",
+          "domain:ozon.kz",
           "domain:paywb.ru",
           "domain:perekrestok.ru",
-          "domain:pervye.ru",
-          "domain:pgu.mos.ru",
           "domain:pochta.ru",
           "domain:pochtabank.ru",
           "domain:premier.one",
           "domain:psbank.ru",
-          "domain:r.mail.ru",
-          "domain:radar.imgsmail.ru",
           "domain:raiffeisen.ru",
-          "domain:rambler-co.ru",
           "domain:rambler.ru",
           "domain:rbc.ru",
-          "domain:rbcollect.ru",
-          "domain:rbcredit.ru",
           "domain:reg.ru",
-          "domain:relap.mail.ru",
-          "domain:reviews.2gis.com",
-          "domain:rocketozon.by",
-          "domain:rosbank-auto.ru",
-          "domain:rosbank-capital.ru",
-          "domain:rosbank-credit.com",
-          "domain:rosbank-dom.ru",
-          "domain:rosbank-leasing.ru",
           "domain:rosbank.ru",
-          "domain:roscosmos.ru",
-          "domain:roskazna.ru",
-          "domain:rostaxi.org",
           "domain:rostelecom.ru",
           "domain:rshb.ru",
-          "domain:rt.com",
           "domain:rt.ru",
-          "domain:rtbcdn.ru",
-          "domain:ruhub.tv",
           "domain:rustore.ru",
-          "domain:rustore.team",
-          "domain:rustore.tv",
-          "domain:rutarget.ru",
           "domain:rutube.ru",
-          "domain:rutubelist.ru",
-          "domain:rwb.ru",
-          "domain:rzd-bonus.ru",
           "domain:rzd.ru",
-          "domain:s3.yandex.net",
           "domain:samokat.ru",
-          "domain:sber-bank.by",
-          "domain:sber.pro",
           "domain:sber.ru",
-          "domain:sberauto.com",
-          "domain:sberbank-insurance.ru",
-          "domain:sberbank-tele.com",
-          "domain:sberbank.com",
           "domain:sberbank.ru",
-          "domain:sberbankaktivno.ru",
-          "domain:sberbankins.ru",
           "domain:sbercloud.ru",
-          "domain:sbercloud.tech",
           "domain:sberdevices.ru",
-          "domain:sberdisk.ru",
-          "domain:sberfactoring.ru",
-          "domain:sberhealth.ru",
-          "domain:sberindex.ru",
-          "domain:sberleasing.ru",
-          "domain:sberlogistics.ru",
           "domain:sbermarket.ru",
-          "domain:sbermarketing.ru",
-          "domain:sbermegamarket.ru",
           "domain:sbermobile.ru",
-          "domain:sberpb.ru",
-          "domain:sberspasibo.ru",
-          "domain:sbertech.ru",
-          "domain:sbertroika.ru",
-          "domain:sberzvuk.com",
           "domain:sbp.ru",
-          "domain:sbrf.ru",
-          "domain:servicecdn.ru",
-          "domain:shedevrum.ai",
-          "domain:sistema-capital.com",
-          "domain:smailru.net",
-          "domain:sourcecraft.dev",
           "domain:sovcombank.ru",
-          "domain:spasibosberbank.ru",
-          "domain:speedstream.ru",
-          "domain:sportmail.ru",
-          "domain:st.max.ru",
-          "domain:static-storage.net",
-          "domain:staticmy.com",
-          "domain:stats.vk-portal.net",
-          "domain:stv.ru",
-          "domain:t-bank-app.ru",
-          "domain:t-capital-funds.ru",
-          "domain:t-static.ru",
-          "domain:t-stekovka.ru",
-          "domain:t2.ru",
-          "domain:tamtam.chat",
-          "domain:target.my.com",
-          "domain:target.vk.ru",
-          "domain:tbank-online.com",
-          "domain:tbank.ru",
-          "domain:tech-mail.ru",
           "domain:tele2.ru",
-          "domain:ticketland.ru",
-          "domain:timeweb.cloud",
-          "domain:tinkoff-edu.ru",
-          "domain:tinkoff-group.com",
-          "domain:tinkoff.ai",
           "domain:tinkoff.ru",
-          "domain:tinkoffcapital.ru",
-          "domain:tinkoffinsurance.ru",
-          "domain:tinkoffinsurancefuture.ru",
-          "domain:tinkoffjournal.ru",
           "domain:tinkoffmobile.com",
-          "domain:top-fwz1.mail.ru",
-          "domain:tracker-api.my.com",
-          "domain:tracker-api.vk-analytics.ru",
-          "domain:tracker.my.com",
-          "domain:trbcdn.net",
-          "domain:tripadvisor.ru",
-          "domain:trvl.yandex.net",
-          "domain:tsx.x5static.net",
           "domain:tutu.ru",
-          "domain:tver.ru",
-          "domain:umschool.net",
           "domain:userapi.com",
-          "domain:userapi.ru",
           "domain:velostrana.ru",
-          "domain:viqeo.tv",
-          "domain:viqeotv.com",
-          "domain:vk-analytics.ru",
-          "domain:vk-apps.com",
-          "domain:vk-apps.ru",
-          "domain:vk-cdn.me",
-          "domain:vk-cdn.net",
-          "domain:vk-portal.net",
-          "domain:vk-records.ru",
-          "domain:vk-stadium.ru",
-          "domain:vk.cc",
           "domain:vk.com",
-          "domain:vk.company",
-          "domain:vk.design",
-          "domain:vk.link",
           "domain:vk.me",
-          "domain:vk.music",
           "domain:vk.ru",
-          "domain:vk.team",
           "domain:vk.video",
-          "domain:vkcache.com",
-          "domain:vkcdnservice.com",
-          "domain:vkclips.app",
-          "domain:vkcloud-static.ru",
-          "domain:vkcs.cloud",
-          "domain:vkfest.ru",
-          "domain:vkgo.app",
-          "domain:vklive.app",
-          "domain:vkmessenger.app",
-          "domain:vkmessenger.com",
-          "domain:vkontakte.com",
-          "domain:vkontakte.ru",
-          "domain:vkpay.app",
-          "domain:vkpay.com",
-          "domain:vkpay.io",
           "domain:vkpay.ru",
-          "domain:vkplay-arena.ru",
-          "domain:vkplay.live",
-          "domain:vkplay.ru",
-          "domain:vktech-static.ru",
-          "domain:vkuser.net",
-          "domain:vkuseraudio.com",
-          "domain:vkuseraudio.net",
-          "domain:vkuseraudio.ru",
-          "domain:vkusercdn.ru",
-          "domain:vkuserlive.com",
-          "domain:vkuserlive.net",
-          "domain:vkuserphoto.ru",
-          "domain:vkuservideo.com",
-          "domain:vkuservideo.net",
-          "domain:vkuservideo.ru",
-          "domain:vkvideo.ru",
-          "domain:vladikavkaz.ru",
-          "domain:vladimir.ru",
-          "domain:vladivostok.ru",
-          "domain:vmailru.net",
           "domain:vtb.ru",
-          "domain:wb-cloud.ru",
           "domain:wb.ru",
-          "domain:wbbasket.ru",
-          "domain:wbmail.ru",
-          "domain:wbstatic.net",
-          "domain:wbstatic.ru",
-          "domain:web-static.mindbox.ru",
-          "domain:wildberries.am",
-          "domain:wildberries.by",
-          "domain:wildberries.co.il",
-          "domain:wildberries.es",
-          "domain:wildberries.eu",
-          "domain:wildberries.ge",
-          "domain:wildberries.kg",
-          "domain:wildberries.kz",
-          "domain:wildberries.lt",
           "domain:wildberries.ru",
-          "domain:wildberries.tj",
-          "domain:wildberries.tm",
-          "domain:wildberries.uz",
-          "domain:wildberriess.ru",
           "domain:wink.ru",
-          "domain:ws-api.oneme.ru",
-          "domain:www.gismeteo.ru",
-          "domain:x5.ru",
-          "domain:xmail.ru",
-          "domain:xn----7sbaba0dc6cdn7cxcj.com",
-          "domain:xn--80ajghhoc2aj1c8b.xn--p1ai",
-          "domain:xn--90aifd0az.shop",
-          "domain:xn--90aifd0aza.site",
-          "domain:xn--90aifd0azb.xn--p1acf",
-          "domain:xn--b1aechhj6bof8g5a.site",
           "domain:ya.ru",
-          "domain:yabs.yandex.ru",
           "domain:yandex",
-          "domain:yandex-bank.net",
-          "domain:yandex-metrica.ru",
-          "domain:yandex-net.ru",
-          "domain:yandex-team.ru",
-          "domain:yandex.aero",
-          "domain:yandex.asia",
-          "domain:yandex.az",
-          "domain:yandex.by",
-          "domain:yandex.cloud",
-          "domain:yandex.co.il",
-          "domain:yandex.com",
-          "domain:yandex.com.am",
-          "domain:yandex.com.ge",
-          "domain:yandex.com.ru",
-          "domain:yandex.com.tr",
-          "domain:yandex.com.ua",
-          "domain:yandex.de",
-          "domain:yandex.ee",
-          "domain:yandex.eu",
-          "domain:yandex.fi",
-          "domain:yandex.fr",
-          "domain:yandex.jobs",
-          "domain:yandex.kg",
-          "domain:yandex.kz",
-          "domain:yandex.lt",
-          "domain:yandex.lv",
-          "domain:yandex.md",
-          "domain:yandex.mobi",
-          "domain:yandex.net",
-          "domain:yandex.org",
-          "domain:yandex.pl",
-          "domain:yandex.plus",
           "domain:yandex.ru",
-          "domain:yandex.st",
-          "domain:yandex.sx",
-          "domain:yandex.tj",
-          "domain:yandex.tm",
-          "domain:yandex.tr",
-          "domain:yandex.ua",
-          "domain:yandex.uz",
-          "domain:yandexadexchange.net",
+          "domain:yandex.net",
           "domain:yandexcloud.net",
-          "domain:yandexcom.net",
-          "domain:yandexdns.ru",
-          "domain:yandexgo.com",
-          "domain:yandexlyceum.ru",
-          "domain:yandexmetrica.com",
-          "domain:yandexwebcache.net",
-          "domain:yandexwebcache.org",
-          "domain:yango-ads.com",
-          "domain:yango-b2b.com",
-          "domain:yango-team.com",
-          "domain:yango-tech.com",
-          "domain:yango.africa",
-          "domain:yango.ao",
-          "domain:yango.bh",
-          "domain:yango.co.il",
-          "domain:yango.com",
-          "domain:yango.fi",
-          "domain:yango.qa",
-          "domain:yango.taxi",
-          "domain:yango.tech",
-          "domain:yangofellowship.com",
-          "domain:yastatic-net.ru",
           "domain:yastatic.net",
-          "domain:yccdn.ru",
-          "domain:youla-web-static.mrgcdn.ru",
-          "domain:youtu.be",
           "domain:youtube-nocookie.com",
-          "full:1l-hit.mail.ru",
-          "full:1l-hit.vkplay.ru",
-          "full:ad.ozone.ru",
-          "full:ad4.mail.ru",
-          "full:adblogger.vk.com",
-          "full:adblogger.vk.ru",
-          "full:adfstat.yandex.ru",
-          "full:ads-gate.wildberries.ru",
-          "full:ads-integration.rustore.ru",
-          "full:ads-media.wildberries.ru",
-          "full:ads.rustore.ru",
-          "full:ads.vk.com",
-          "full:ads.vk.ru",
-          "full:ads.wildberries.ru",
-          "full:ads.yandex.com",
-          "full:ads.yango.com",
-          "full:adsdk.yandex.ru",
-          "full:adv.ozon.ru",
-          "full:adv.rustore.ru",
-          "full:adv.vk.ru",
-          "full:advert-api-sandbox.wb.ru",
-          "full:advert-api-sandbox.wildberries.ru",
-          "full:advert-api.wb.ru",
-          "full:advert-api.wildberries.ru",
-          "full:advert-media-api.wb.ru",
-          "full:advert-media-api.wildberries.ru",
-          "full:advk.vk.ru",
-          "full:agency-adv.ozon.ru",
-          "full:alt-r.my.com",
-          "full:amc.yandex.ru",
-          "full:an.mail.ru",
-          "full:analytics-adv.ozon.ru",
-          "full:analytics-stage.wildberries.ru",
-          "full:analytics.mobile.yandex.net",
-          "full:analytics.vk.ru",
-          "full:analytics.wildberries.ru",
-          "full:b2.mail.ru",
-          "full:beginners-adv.ozon.ru",
-          "full:bs.mail.ru",
-          "full:clck.yandex.com",
-          "full:clck.yandex.net",
-          "full:clck.yango.com",
-          "full:click.rustore.ru",
-          "full:edu.tinkoff.ru",
-          "full:education.tbank.ru",
-          "full:error-tracking.megamarket.tech",
-          "full:go.yandex",
-          "full:google-analytics-suite.ozon.ru",
-          "full:informer.yandex.ru",
-          "full:loyalnost-adv.ozon.ru",
-          "full:marketing-info.wildberries.ru",
-          "full:marketplace-sentry.wb.ru",
-          "full:mc.yandex.com",
-          "full:mc.yandex.net",
-          "full:mc.yango.com",
-          "full:new-adv.ozon.ru",
-          "full:pixel.rustore.ru",
-          "full:pixel.yandex.com",
-          "full:prodvizhenie-adv.ozon.ru",
-          "full:questions-adv.ozon.ru",
-          "full:r0.mail.ru",
-          "full:r0.mradx.net",
-          "full:r1.mail.ru",
-          "full:reklama.mail.ru",
-          "full:report.ap.yandex-net.ru",
-          "full:rs.mail.ru",
-          "full:sberpro.vedomosti.ru",
-          "full:sentry-ng.g.smailru.net",
-          "full:sentry.dev-my.com",
-          "full:sentry.ozon.ru",
-          "full:sentry.rustore.ru",
-          "full:sentry.sberauto.com",
-          "full:sentry.viqeo.tv",
-          "full:sentry.wb.ru",
-          "full:srch-telemeter10.g.smailru.net",
-          "full:st-ok-pts.cdn-vk.ru",
-          "full:st-ok.cdn-vk.ru",
-          "full:stacks.vk-portal.net",
-          "full:stats.rustore.ru",
-          "full:stats.vk-portal.net",
-          "full:t.mail.ru",
-          "full:target.vk.com",
-          "full:top-staging.mail.ru",
-          "full:tracing-http.megamarket.tech",
-          "full:visor.sberbank.ru",
-          "full:web-analytics.wildberries.ru",
-          "full:whiteline.mail.ru",
-          "full:xapi.ozon.by",
-          "full:xapi.ozon.com",
-          "full:xapi.ozon.com.by",
-          "full:xapi.ozon.com.kz",
-          "full:xapi.ozon.kz",
-          "full:xapi.ozon.ru",
-          "full:xapi.ozonru.me",
-          "full:xray.mail.ru",
-          "2gis",
-          "2gis.com",
-          "5ka",
-          "aeroflot",
-          "alfa",
-          "auchan",
-          "avito",
-          "avito.st",
-          "beeline",
-          "cbr",
-          "cdek",
-          "detmir",
-          "dzen",
-          "dzeninfra",
-          "giga.chat",
-          "gismeteo",
-          "goskey",
-          "gosuslugi",
-          "gov.ru",
-          "gu-st.ru",
-          "hh",
-          "imgsmail",
-          "ivi",
-          "kaspersky",
-          "kinopoisk",
-          "kion",
-          "kpcdn",
-          "kuper",
-          "lemanapro",
-          "lenta",
-          "magnit",
-          "mail.ru",
-          "megafon",
-          "megamarket",
-          "mos.ru",
-          "mradx.net",
-          "mts",
-          "mycdn.me",
-          "nalog",
-          "nspk",
-          "ok.ru",
-          "okcdn.ru",
-          "okko",
-          "okko.tv",
-          "ozon",
-          "perekrestok",
-          "pobeda",
-          "pochta",
-          "psbank",
-          "rambler",
-          "rbc",
-          "rt.ru",
-          "rustore",
-          "rutube",
-          "rzd",
-          "samokat",
-          "sberdevices",
-          "t2.ru",
-          "tele2",
-          "tutu",
-          "userapi",
-          "userapi.com",
-          "vk",
-          "vk-cdn.net",
-          "vk.com",
-          "vk.me",
-          "vkuser.net",
-          "vkuservideo",
-          "vkvideo",
-          "vtb",
-          "wb.ru",
-          "wbstatic.net",
-          "wildberries",
-          "wink",
-          "ya.ru",
-          "yandex",
-          "yandex.com",
-          "yandex.net",
-          "yandexcloud.net",
-          "yastatic",
-          "yastatic.net"
+          "domain:youtu.be"
         ],
         "skipFallback": true
       },
@@ -786,7 +224,7 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "www.pleadcourt.org",
-          "fingerprint": "android",
+          "fingerprint": "chrome",
           "allowInsecure": true
         },
         "wsSettings": {
@@ -804,25 +242,25 @@
       "settings": {
         "vnext": [
           {
-            "address": "192.145.31.5",
+            "address": "147.45.61.190",
             "port": 443,
             "users": [
               {
-                "id": "9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a",
-                "encryption": "none"
+                "id": "5999a497-a2da-41d0-92cb-5b758082f83c",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "none",
-        "wsSettings": {
-          "path": "/",
-          "headers": {
-            "Host": ""
-          }
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "som5.api3-max.ru",
+          "fingerprint": "chrome",
+          "allowInsecure": true
         }
       },
       "tag": "cand02",
@@ -833,30 +271,27 @@
       "settings": {
         "vnext": [
           {
-            "address": "spiderpanel-production-e03c.up.railway.app",
+            "address": "5.175.174.173",
             "port": 443,
             "users": [
               {
-                "id": "3842e382-43c6-4c77-beef-3f1b3ef9155b",
-                "encryption": "none"
+                "id": "b898eb24-5504-439c-b3b2-9b6062956f20",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "spiderpanel-production-e03c.up.railway.app",
-          "fingerprint": "android",
-          "allowInsecure": true
-        },
-        "wsSettings": {
-          "path": "/ws/3842e382-43c6-4c77-beef-3f1b3ef9155b",
-          "headers": {
-            "Host": "spiderpanel-production-e03c.up.railway.app"
-          }
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "www.philips.com",
+          "publicKey": "Ncb78PVwvwU2tB1eiOlJd0ZCG2CbqG7-dPIHztlq2yM",
+          "shortId": "69cc4c0d5e",
+          "fingerprint": "chrome",
+          "show": false
         }
       },
       "tag": "cand03",
@@ -867,7 +302,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "de-xh01.tcp-reset-club.net",
+            "address": "nl-xh01.tcp-reset-club.net",
             "port": 443,
             "users": [
               {
@@ -889,7 +324,7 @@
           "show": false
         },
         "xhttpSettings": {
-          "host": "",
+          "host": "s3.netavex.com",
           "path": "/assets/v2/pkg",
           "mode": "packet-up"
         }
@@ -902,11 +337,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.80.1",
-            "port": 8443,
+            "address": "185.204.171.95",
+            "port": 1819,
             "users": [
               {
-                "id": "60441548-b68e-43b2-8191-e3b884be4b3c",
+                "id": "e7e1947d-a875-4be5-bd53-79c5a1837116",
                 "alterId": 0,
                 "security": "auto"
               }
@@ -915,22 +350,82 @@
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": "tls",
         "tlsSettings": {
-          "serverName": "v2ray1.dozapp.xyz",
-          "fingerprint": "",
+          "serverName": "",
+          "fingerprint": "chrome",
           "allowInsecure": true
-        },
-        "wsSettings": {
-          "path": "/lMnsZUN4/",
-          "headers": {
-            "Host": "v2ray1.dozapp.xyz"
-          }
         }
       },
       "tag": "cand05",
-      "remarks": "🇺🇸🌐США"
+      "remarks": "🇩🇪🌐Германия"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "151.101.69.253",
+            "port": 443,
+            "users": [
+              {
+                "id": "884f23e9-caab-4775-9ed9-6a3a9cae677f",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "accaunt.fastly.com",
+          "fingerprint": "firefox",
+          "allowInsecure": true
+        },
+        "xhttpSettings": {
+          "host": "lunex.store",
+          "path": "/Lunex",
+          "mode": "auto"
+        }
+      },
+      "tag": "cand06",
+      "remarks": "🇩🇪🌐Германия 2"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "94.26.83.7",
+            "port": 443,
+            "users": [
+              {
+                "id": "0dd9cfaa-cebd-4444-8778-70cb22737944",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "dl.google.com",
+          "publicKey": "HFTFARa1OS53m4HWnjwtZ0J3lu7aoKkE7OujIyM62QI",
+          "shortId": "2a236a7fcbe0ce61",
+          "fingerprint": "chrome",
+          "show": false
+        },
+        "grpcSettings": {
+          "serviceName": "grpc-tunnel"
+        }
+      },
+      "tag": "cand07",
+      "remarks": "🇩🇪🌐Германия 3"
     },
     {
       "protocol": "trojan",
@@ -960,9 +455,9 @@
       "settings": {
         "servers": [
           {
-            "address": "194.9.172.236",
-            "port": 1105,
-            "password": "kakashka13222"
+            "address": "xn--1ugy405pdua.gayvibe.dpdns.org",
+            "port": 2174,
+            "password": "tripitropa444"
           }
         ]
       },
@@ -971,121 +466,25 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "",
-          "fingerprint": "chrome",
+          "fingerprint": "firefox",
           "allowInsecure": true
         }
       },
       "tag": "cand09",
-      "remarks": "🇫🇷🌐Франция"
+      "remarks": "🇬🇧🌐Великобритания 2"
     },
     {
-      "protocol": "vless",
+      "protocol": "vmess",
       "settings": {
         "vnext": [
           {
-            "address": "2.26.129.71",
+            "address": "20.235.220.189",
             "port": 443,
             "users": [
               {
-                "id": "739c1201-db54-47f5-aed7-29782a5bbe18",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "ukrop.mycdn-me.ru",
-          "publicKey": "gPTBA-gVUWAK9yziB_v_sGSncm0LwBQvEAsTQZK4jEE",
-          "shortId": "5a8e1a04f3d92b67",
-          "fingerprint": "android",
-          "show": false
-        }
-      },
-      "tag": "cand10",
-      "remarks": "🇫🇷🌐Франция 2"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "2.26.128.80",
-            "port": 443,
-            "users": [
-              {
-                "id": "739c1201-db54-47f5-aed7-29782a5bbe18",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "wombat.mycdn-me.ru",
-          "publicKey": "w88Ys8dVF9DuslGwUD05J9-FHNoAT9qmPysCvHiEmmg",
-          "shortId": "1b40e7c2a1d8f635",
-          "fingerprint": "android",
-          "show": false
-        }
-      },
-      "tag": "cand11",
-      "remarks": "🇫🇮🌐Финляндия"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "fi-xh01.tcp-reset-club.net",
-            "port": 443,
-            "users": [
-              {
-                "id": "0678ed07-980a-49c1-9066-05caec654967",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "s3.netavex.com",
-          "publicKey": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
-          "shortId": "f79448a30d",
-          "fingerprint": "android",
-          "show": false
-        },
-        "xhttpSettings": {
-          "host": "",
-          "path": "/assets/v2/pkg",
-          "mode": "packet-up"
-        }
-      },
-      "tag": "cand12",
-      "remarks": "🇫🇮🌐Финляндия 2"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "72.56.112.137",
-            "port": 8443,
-            "users": [
-              {
-                "id": "e8e502bd-8c9e-4261-a020-7f7d41cc3c05",
-                "encryption": "none"
+                "id": "f23bb427c1f94373876c2f43e9f790f3",
+                "alterId": 0,
+                "security": "auto"
               }
             ]
           }
@@ -1095,31 +494,67 @@
         "network": "ws",
         "security": "tls",
         "tlsSettings": {
-          "serverName": "korgivps.ru",
-          "fingerprint": "android",
+          "serverName": "6jdvarazgu3qqr6q.v.3dns.vip",
+          "fingerprint": "",
           "allowInsecure": true
         },
         "wsSettings": {
-          "path": "/api/user",
+          "path": "/ws-vmess",
           "headers": {
-            "Host": ""
+            "Host": "6jdvarazgu3qqr6q.v.3dns.vip"
+          }
+        }
+      },
+      "tag": "cand10",
+      "remarks": "🇭🇰🌐Гонконг"
+    },
+    {
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "47.76.44.32",
+            "port": 443,
+            "users": [
+              {
+                "id": "f23bb427c1f94373876c2f43e9f790f3",
+                "alterId": 0,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "",
+          "fingerprint": "",
+          "allowInsecure": true
+        },
+        "wsSettings": {
+          "path": "/ws-vmess",
+          "headers": {
+            "Host": "93ucrn4i0PffUAbk.v.3dns.vip"
           }
         }
       },
       "tag": "cand13",
-      "remarks": "🇩🇪🌐Германия"
+      "remarks": "🇭🇰🌐Гонконг 4"
     },
     {
-      "protocol": "vless",
+      "protocol": "vmess",
       "settings": {
         "vnext": [
           {
-            "address": "korgivps.ru",
-            "port": 8443,
+            "address": "47.83.207.148",
+            "port": 443,
             "users": [
               {
-                "id": "e8e502bd-8c9e-4261-a020-7f7d41cc3c05",
-                "encryption": "none"
+                "id": "f23bb427c1f94373876c2f43e9f790f3",
+                "alterId": 0,
+                "security": "auto"
               }
             ]
           }
@@ -1129,145 +564,334 @@
         "network": "ws",
         "security": "tls",
         "tlsSettings": {
-          "serverName": "korgivps.ru",
-          "fingerprint": "android",
+          "serverName": "vah4urdzl3jdx5r2.v.3dns.vip",
+          "fingerprint": "",
           "allowInsecure": true
         },
         "wsSettings": {
-          "path": "/api/user",
+          "path": "/ws-vmess",
           "headers": {
             "Host": ""
           }
         }
       },
       "tag": "cand14",
-      "remarks": "🇩🇪🌐Германия 2"
+      "remarks": "🇭🇰🌐Гонконг 5"
     },
     {
-      "protocol": "vless",
+      "protocol": "vmess",
       "settings": {
         "vnext": [
           {
-            "address": "2.26.130.118",
+            "address": "47.242.79.198",
             "port": 443,
             "users": [
               {
-                "id": "739c1201-db54-47f5-aed7-29782a5bbe18",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
+                "id": "f23bb427c1f94373876c2f43e9f790f3",
+                "alterId": 0,
+                "security": "auto"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "nora.mycdn-me.ru",
-          "publicKey": "GUdrwZxYWVvIFgC2fSJDs6U5Un6c7t1Yuvzl7yI1ohU",
-          "shortId": "2f6a8c3e90b2d574",
-          "fingerprint": "android",
-          "show": false
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "",
+          "fingerprint": "",
+          "allowInsecure": true
+        },
+        "wsSettings": {
+          "path": "/ws-vmess",
+          "headers": {
+            "Host": "ejOMsxPtP19APyGL.v.3dns.vip"
+          }
         }
       },
       "tag": "cand15",
-      "remarks": "🇮🇹🌐Италия"
+      "remarks": "🇭🇰🌐Гонконг 6"
     },
     {
-      "protocol": "vless",
+      "protocol": "vmess",
       "settings": {
         "vnext": [
           {
-            "address": "ch-xh01.tcp-reset-club.net",
+            "address": "210.138.37.53",
             "port": 443,
             "users": [
               {
-                "id": "0678ed07-980a-49c1-9066-05caec654967",
-                "encryption": "none"
+                "id": "f23bb427c1f94373876c2f43e9f790f3",
+                "alterId": 0,
+                "security": "auto"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "s3.netavex.com",
-          "publicKey": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
-          "shortId": "f79448a30d",
-          "fingerprint": "android",
-          "show": false
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "",
+          "fingerprint": "",
+          "allowInsecure": true
         },
-        "xhttpSettings": {
-          "host": "",
-          "path": "/assets/v2/pkg",
-          "mode": "packet-up"
+        "wsSettings": {
+          "path": "/ws-vmess",
+          "headers": {
+            "Host": "DrBKg16eGf3FZlM3.v.3dns.vip"
+          }
         }
       },
       "tag": "cand16",
-      "remarks": "🇨🇭🌐Швейцария"
+      "remarks": "🇭🇰🌐Гонконг 7"
     },
     {
-      "protocol": "vless",
+      "protocol": "vmess",
       "settings": {
         "vnext": [
           {
-            "address": "198.105.123.155",
-            "port": 1152,
+            "address": "ex1ogt73nzpqkac2.v.3dns.vip",
+            "port": 443,
             "users": [
               {
-                "id": "d384974a-87c2-430b-a10c-ae367bc7ced8",
-                "encryption": "none"
+                "id": "f23bb427c1f94373876c2f43e9f790f3",
+                "alterId": 0,
+                "security": "auto"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "yahoo.com",
-          "publicKey": "24qgQiNdIzdKYtFOQDFtB6kN9WKx0gviKirv8Bb4hhI",
-          "shortId": "86a68a48b7d45f43",
-          "fingerprint": "android",
-          "show": false
-        }
-      },
-      "tag": "cand17",
-      "remarks": "🇹🇷🌐Турция"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "turkey2vfsdvrwevr32v23v423ccdsrbsdbrsdvsdc.soft421.ir",
-            "port": 1152,
-            "users": [
-              {
-                "id": "d384974a-87c2-430b-a10c-ae367bc7ced8",
-                "encryption": "none"
-              }
-            ]
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "ex1ogt73nzpqkac2.v.3dns.vip",
+          "fingerprint": "",
+          "allowInsecure": true
+        },
+        "wsSettings": {
+          "path": "/ws-vmess",
+          "headers": {
+            "Host": ""
           }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "yahoo.com",
-          "publicKey": "24qgQiNdIzdKYtFOQDFtB6kN9WKx0gviKirv8Bb4hhI",
-          "shortId": "86a68a48b7d45f43",
-          "fingerprint": "android",
-          "show": false
         }
       },
       "tag": "cand18",
-      "remarks": "🇹🇷🌐Турция 2"
+      "remarks": "🇭🇰🌐Гонконг 9"
+    },
+    {
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "vah4urdzl3jdx5r2.v.3dns.vip",
+            "port": 443,
+            "users": [
+              {
+                "id": "f23bb427c1f94373876c2f43e9f790f3",
+                "alterId": 0,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "VAH4URdZL3jDX5r2.v.3dns.vip",
+          "fingerprint": "",
+          "allowInsecure": true
+        },
+        "wsSettings": {
+          "path": "/ws-vmess",
+          "headers": {
+            "Host": "VAH4URdZL3jDX5r2.v.3dns.vip"
+          }
+        }
+      },
+      "tag": "cand19",
+      "remarks": "🇭🇰🌐Гонконг 10"
+    },
+    {
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "drbkg16egf3fzlm3.v.3dns.vip",
+            "port": 443,
+            "users": [
+              {
+                "id": "f23bb427-c1f9-4373-876c-2f43e9f790f3",
+                "alterId": 0,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "DrBKg16eGf3FZlM3.v.3dns.vip",
+          "fingerprint": "",
+          "allowInsecure": true
+        },
+        "wsSettings": {
+          "path": "/ws-vmess",
+          "headers": {
+            "Host": "DrBKg16eGf3FZlM3.v.3dns.vip"
+          }
+        }
+      },
+      "tag": "cand20",
+      "remarks": "🇭🇰🌐Гонконг 11"
+    },
+    {
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "i2psm3knof5qjjix.v.3dns.vip",
+            "port": 443,
+            "users": [
+              {
+                "id": "f23bb427c1f94373876c2f43e9f790f3",
+                "alterId": 0,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "i2psm3knof5qjjix.v.3dns.vip",
+          "fingerprint": "",
+          "allowInsecure": true
+        },
+        "wsSettings": {
+          "path": "/ws-vmess",
+          "headers": {
+            "Host": "I2PSm3Knof5qjjix.v.3dns.vip"
+          }
+        }
+      },
+      "tag": "cand21",
+      "remarks": "🇭🇰🌐Гонконг 12"
+    },
+    {
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "93ucrn4i0pffuabk.v.3dns.vip",
+            "port": 443,
+            "users": [
+              {
+                "id": "f23bb427c1f94373876c2f43e9f790f3",
+                "alterId": 0,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "93ucrn4i0pffuabk.v.3dns.vip",
+          "fingerprint": "",
+          "allowInsecure": true
+        },
+        "wsSettings": {
+          "path": "/ws-vmess",
+          "headers": {
+            "Host": ""
+          }
+        }
+      },
+      "tag": "cand22",
+      "remarks": "🇭🇰🌐Гонконг 13"
+    },
+    {
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "47.86.107.119",
+            "port": 443,
+            "users": [
+              {
+                "id": "f23bb427c1f94373876c2f43e9f790f3",
+                "alterId": 0,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "lcv8v9l7OyamxxfZ.v.3dns.vip",
+          "fingerprint": "",
+          "allowInsecure": true
+        },
+        "wsSettings": {
+          "path": "/ws-vmess",
+          "headers": {
+            "Host": "lcv8v9l7OyamxxfZ.v.3dns.vip"
+          }
+        }
+      },
+      "tag": "cand26",
+      "remarks": "🇭🇰🌐Гонконг 17"
+    },
+    {
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "mtckundigepwu3up.v.3dns.vip",
+            "port": 443,
+            "users": [
+              {
+                "id": "f23bb427c1f94373876c2f43e9f790f3",
+                "alterId": 0,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "mTCKUNDiGePwU3uP.v.3dns.vip",
+          "fingerprint": "",
+          "allowInsecure": true
+        },
+        "wsSettings": {
+          "path": "/ws-vmess",
+          "headers": {
+            "Host": "mTCKUNDiGePwU3uP.v.3dns.vip"
+          }
+        }
+      },
+      "tag": "cand27",
+      "remarks": "🇭🇰🌐Гонконг 18"
     },
     {
       "protocol": "vless",
@@ -1293,12 +917,2079 @@
           "serverName": "www.apple.com",
           "publicKey": "D_09r1ZQ1c2eCRiXGxxqdaWHXGSu9Cp4LqcH9xLf2Gc",
           "shortId": "1499961dd2c080",
-          "fingerprint": "android",
+          "fingerprint": "chrome",
           "show": false
         }
       },
-      "tag": "cand20",
-      "remarks": "🇭🇰🌐Гонконг"
+      "tag": "cand31",
+      "remarks": "🇭🇰🌐Гонконг 22"
+    },
+    {
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "194.9.172.236",
+            "port": 1105,
+            "password": "kakashka13222"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "",
+          "fingerprint": "safari",
+          "allowInsecure": true
+        }
+      },
+      "tag": "cand32",
+      "remarks": "🇫🇷🌐Франция"
+    },
+    {
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "118.193.57.167",
+            "port": 49667,
+            "users": [
+              {
+                "id": "d46bf492-45f4-4c33-82d1-ea2a1cb54eb6",
+                "alterId": 0,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "",
+        "wsSettings": {
+          "path": "/d46bf492",
+          "headers": {
+            "Host": ""
+          }
+        }
+      },
+      "tag": "cand33",
+      "remarks": "🇹🇭🌐Таиланд"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "estproxy3.lockdwn.com",
+            "port": 8443,
+            "users": [
+              {
+                "id": "9d9e3421-5652-4804-85ba-238355b948ab",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "estproxy3.lockdwn.com",
+          "fingerprint": "chrome",
+          "allowInsecure": true
+        }
+      },
+      "tag": "cand34",
+      "remarks": "🇪🇪🌐Эстония"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "201.34.141.76",
+            "port": 44002,
+            "users": [
+              {
+                "id": "8cc0f156-c22f-465f-8bf1-68460d330c63",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "cloudbridgecdn.pro",
+          "publicKey": "sl0wx4BFdJ7SsfQ6SjkSHU_SQ_0mAhyIlT2eAxWGRyQ",
+          "shortId": "c2166e3b",
+          "fingerprint": "chrome",
+          "show": false
+        }
+      },
+      "tag": "cand35",
+      "remarks": "🇨🇭🌐Швейцария"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "ch-xh01.tcp-reset-club.net",
+            "port": 443,
+            "users": [
+              {
+                "id": "0678ed07-980a-49c1-9066-05caec654967",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "s3.netavex.com",
+          "publicKey": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
+          "shortId": "f79448a30d",
+          "fingerprint": "chrome",
+          "show": false
+        },
+        "xhttpSettings": {
+          "host": "",
+          "path": "/assets/v2/pkg",
+          "mode": "packet-up"
+        }
+      },
+      "tag": "cand36",
+      "remarks": "🇨🇭🌐Швейцария 2"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "garuda.ubuntuhosting.host",
+            "port": 443,
+            "users": [
+              {
+                "id": "d7430ae7-320c-4658-808b-3006d0627d82",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "garuda.ubuntuhosting.host",
+          "publicKey": "QJW15WZWLNjA8KEpe4GqSdOe4rfW8KgqjjVmKxPk-ng",
+          "shortId": "3fa234ea9feaa048",
+          "fingerprint": "chrome",
+          "show": false
+        },
+        "grpcSettings": {
+          "serviceName": "gun"
+        }
+      },
+      "tag": "cand37",
+      "remarks": "🇰🇿🌐Казахстан"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "endeavouros.ubuntuhosting.host",
+            "port": 443,
+            "users": [
+              {
+                "id": "d7430ae7-320c-4658-808b-3006d0627d82",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "endeavouros.ubuntuhosting.host",
+          "publicKey": "n_-rh8EC8zmzkuu2AmCnKoh09omlYONdgS_F7CStITk",
+          "shortId": "3fa234ea9feaa048",
+          "fingerprint": "qq",
+          "show": false
+        }
+      },
+      "tag": "cand38",
+      "remarks": "🌐Anycast"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "140.99.243.19",
+            "port": 443,
+            "users": [
+              {
+                "id": "d7430ae7-320c-4658-808b-3006d0627d82",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "jp03.glaveda.net",
+          "publicKey": "QJW15WZWLNjA8KEpe4GqSdOe4rfW8KgqjjVmKxPk-ng",
+          "shortId": "3fa234ea9feaa048",
+          "fingerprint": "chrome",
+          "show": false
+        },
+        "grpcSettings": {
+          "serviceName": "gun"
+        }
+      },
+      "tag": "cand39",
+      "remarks": "🇯🇵🌐Япония"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "8.211.189.73",
+            "port": 42635,
+            "users": [
+              {
+                "id": "e76db4ef-c87f-408c-a7f6-d4a9b8e06cd8",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "www.apple.com",
+          "publicKey": "Zasj_Tu2GbBtMqnYXrEFd6mE5OtRpna2EUWzaVoipjI",
+          "shortId": "542c8d39a816",
+          "fingerprint": "chrome",
+          "show": false
+        }
+      },
+      "tag": "cand40",
+      "remarks": "🇯🇵🌐Япония 2"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "rbalytavhhksrbgdx.jiedddym.com",
+            "port": 42635,
+            "users": [
+              {
+                "id": "e76db4ef-c87f-408c-a7f6-d4a9b8e06cd8",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "www.apple.com",
+          "publicKey": "Zasj_Tu2GbBtMqnYXrEFd6mE5OtRpna2EUWzaVoipjI",
+          "shortId": "542c8d39a816",
+          "fingerprint": "chrome",
+          "show": false
+        }
+      },
+      "tag": "cand41",
+      "remarks": "🇯🇵🌐Япония 3"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "23.170.40.21",
+            "port": 443,
+            "users": [
+              {
+                "id": "6f0621e4-488c-448a-891c-ddc298e48e8c",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "dusebafke.mvp-rk.site",
+          "fingerprint": "chrome",
+          "allowInsecure": true
+        }
+      },
+      "tag": "cand42",
+      "remarks": "🇺🇸🌐США"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "85.155.178.96",
+            "port": 443,
+            "users": [
+              {
+                "id": "d7430ae7-320c-4658-808b-3006d0627d82",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "us03.glaveda.net",
+          "publicKey": "QJW15WZWLNjA8KEpe4GqSdOe4rfW8KgqjjVmKxPk-ng",
+          "shortId": "3fa234ea9feaa048",
+          "fingerprint": "chrome",
+          "show": false
+        },
+        "grpcSettings": {
+          "serviceName": "gun"
+        }
+      },
+      "tag": "cand43",
+      "remarks": "🇺🇸🌐США 2"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "dusebafke.mvp-rk.site",
+            "port": 443,
+            "users": [
+              {
+                "id": "6f0621e4-488c-448a-891c-ddc298e48e8c",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "dusebafke.mvp-rk.site",
+          "fingerprint": "chrome",
+          "allowInsecure": true
+        }
+      },
+      "tag": "cand44",
+      "remarks": "🇺🇸🌐США 3"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "79.174.92.220",
+            "port": 1443,
+            "users": [
+              {
+                "id": "1f4c93f0-672e-4110-9d12-d06dfa7ba5d3",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "settings.dev-yandex.sbs",
+          "publicKey": "eIwe5pSZs414JJDSuBA3R4-ikllq0oITezzVIdUkACI",
+          "shortId": "ad7dab462a323acb",
+          "fingerprint": "qq",
+          "show": false
+        }
+      },
+      "tag": "cand45",
+      "remarks": "🇷🇺🌐Россия"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "46.243.233.98",
+            "port": 443,
+            "users": [
+              {
+                "id": "20e5c5c2-a5dd-4e3e-892e-dfb27b627e90",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "optim.tildacdn.pub",
+          "publicKey": "uYiZWRgbowvS9uOhVZTe0FBS1pLzA3QMyQ_NfDh4_h8",
+          "shortId": "92f0df0ecfb36a16",
+          "fingerprint": "edge",
+          "show": false
+        }
+      },
+      "tag": "cand46",
+      "remarks": "🇷🇺🌐Россия 2"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "5.42.121.52",
+            "port": 4100,
+            "users": [
+              {
+                "id": "64bd5231-8c49-44f4-8bc0-998eef787d05",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "none",
+        "wsSettings": {
+          "path": "/v1",
+          "headers": {
+            "Host": ""
+          }
+        }
+      },
+      "tag": "cand47",
+      "remarks": "🇷🇺🌐Россия 3"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "45.151.182.234",
+            "port": 443,
+            "users": [
+              {
+                "id": "78eb4455-0d07-28a0-93e3-7c8654f11d74",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "cdn.geodema.network",
+          "publicKey": "EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8",
+          "shortId": "1ed136481e0ede74",
+          "fingerprint": "chrome",
+          "show": false
+        }
+      },
+      "tag": "cand48",
+      "remarks": "🇷🇺🌐Россия 4"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "168.222.203.14",
+            "port": 4100,
+            "users": [
+              {
+                "id": "2e79f3ca-b8db-4d4d-a96e-8f7313480696",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "none",
+        "wsSettings": {
+          "path": "/v1",
+          "headers": {
+            "Host": ""
+          }
+        }
+      },
+      "tag": "cand49",
+      "remarks": "🇷🇺🌐Россия 5"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "81.200.146.190",
+            "port": 4100,
+            "users": [
+              {
+                "id": "9c2307ba-7972-4ea5-a199-f2c80049be7f",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "none",
+        "wsSettings": {
+          "path": "/v1",
+          "headers": {
+            "Host": "live.ok.ru"
+          }
+        }
+      },
+      "tag": "cand50",
+      "remarks": "🇷🇺🌐Россия 6"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "80.90.188.104",
+            "port": 2200,
+            "users": [
+              {
+                "id": "2da8106d-8c6a-4818-9a79-07890f9dd859",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "none",
+        "wsSettings": {
+          "path": "/v1",
+          "headers": {
+            "Host": "rzd.ru"
+          }
+        }
+      },
+      "tag": "cand51",
+      "remarks": "🇷🇺🌐Россия 7"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "87.249.54.48",
+            "port": 4100,
+            "users": [
+              {
+                "id": "fe3489e2-6b59-4adb-91f3-e34300a13d5a",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "none",
+        "wsSettings": {
+          "path": "/v1",
+          "headers": {
+            "Host": ""
+          }
+        }
+      },
+      "tag": "cand52",
+      "remarks": "🇷🇺🌐Россия 8"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "194.26.229.122",
+            "port": 2200,
+            "users": [
+              {
+                "id": "84d0ff7b-9760-415f-a974-b3e1fe92264f",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "none",
+        "wsSettings": {
+          "path": "/v1",
+          "headers": {
+            "Host": ""
+          }
+        }
+      },
+      "tag": "cand53",
+      "remarks": "🇷🇺🌐Россия 9"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "77.222.53.218",
+            "port": 2200,
+            "users": [
+              {
+                "id": "1cb011db-0211-4120-8984-13d8510a612b",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "none",
+        "wsSettings": {
+          "path": "/v1",
+          "headers": {
+            "Host": "rzd.ru"
+          }
+        }
+      },
+      "tag": "cand54",
+      "remarks": "🇷🇺🌐Россия 10"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "5.42.109.42",
+            "port": 8443,
+            "users": [
+              {
+                "id": "11f3e7b1-5507-46da-a268-1f70a543e40a",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "run5.wba-pn.ru",
+          "fingerprint": "firefox",
+          "allowInsecure": true
+        },
+        "wsSettings": {
+          "path": "/",
+          "headers": {
+            "Host": ""
+          }
+        }
+      },
+      "tag": "cand55",
+      "remarks": "🇷🇺🌐Россия 11"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "194.26.229.110",
+            "port": 4100,
+            "users": [
+              {
+                "id": "6a726f9a-5753-4113-bfd8-bd845281dca8",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "none",
+        "wsSettings": {
+          "path": "/v1",
+          "headers": {
+            "Host": "live.ok.ru"
+          }
+        }
+      },
+      "tag": "cand56",
+      "remarks": "🇷🇺🌐Россия 12"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "185.125.103.62",
+            "port": 8082,
+            "users": [
+              {
+                "id": "3488d7ad-0d4f-42ca-9d41-1aced6574f3a",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev",
+          "fingerprint": "chrome",
+          "allowInsecure": true
+        },
+        "wsSettings": {
+          "path": "/@Marisa_kristi",
+          "headers": {
+            "Host": "ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev"
+          }
+        }
+      },
+      "tag": "cand57",
+      "remarks": "🇷🇺🌐Россия 13"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "46.243.234.213",
+            "port": 8449,
+            "users": [
+              {
+                "id": "2dfd0db2-cd4e-4c09-97fc-67c3d8ee9409",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "akashi.vk-portal.net",
+          "publicKey": "XF3wXFapd311fC0M0APxbrf3cIaGnyKU7BR4Pv_l7Rs",
+          "shortId": "15954a1c5a3d5bfc",
+          "fingerprint": "firefox",
+          "show": false
+        }
+      },
+      "tag": "cand58",
+      "remarks": "🇷🇺🌐Россия 14"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "178.72.147.249",
+            "port": 2200,
+            "users": [
+              {
+                "id": "92e20947-b564-4f08-8c1a-c6f3c66f763b",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "none",
+        "wsSettings": {
+          "path": "/v1",
+          "headers": {
+            "Host": "rzd.ru"
+          }
+        }
+      },
+      "tag": "cand59",
+      "remarks": "🇷🇺🌐Россия 15"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "72.56.39.215",
+            "port": 443,
+            "users": [
+              {
+                "id": "0bc09995-7ee6-462e-bfc3-75c880b9d675",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "fast18.slopllex.app",
+          "fingerprint": "firefox",
+          "allowInsecure": true
+        }
+      },
+      "tag": "cand60",
+      "remarks": "🇷🇺🌐Россия 16"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "194.55.239.20",
+            "port": 443,
+            "users": [
+              {
+                "id": "303035c0-dd28-4568-87bb-9a11637c5407",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "harknmav.fun",
+          "fingerprint": "firefox",
+          "allowInsecure": true
+        },
+        "wsSettings": {
+          "path": "/live.stream.v1.Broadcast/",
+          "headers": {
+            "Host": ""
+          }
+        }
+      },
+      "tag": "cand61",
+      "remarks": "🇷🇺🌐Россия 17"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "185.147.27.49",
+            "port": 8443,
+            "users": [
+              {
+                "id": "0d81b209-0722-4b32-9163-542f54ba56ed",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "user-6a936d01.noooo.win",
+          "fingerprint": "firefox",
+          "allowInsecure": true
+        }
+      },
+      "tag": "cand62",
+      "remarks": "🇷🇺🌐Россия 18"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "66.90.90.164",
+            "port": 8443,
+            "users": [
+              {
+                "id": "0d81b209-0722-4b32-9163-542f54ba56ed",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "ai-6a936d01.noooo.win",
+          "fingerprint": "edge",
+          "allowInsecure": true
+        }
+      },
+      "tag": "cand63",
+      "remarks": "🇷🇺🌐Россия 19"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "rus.noooo.win",
+            "port": 8443,
+            "users": [
+              {
+                "id": "0d81b209-0722-4b32-9163-542f54ba56ed",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "user-6a936d01.noooo.win",
+          "fingerprint": "edge",
+          "allowInsecure": true
+        }
+      },
+      "tag": "cand64",
+      "remarks": "🇷🇺🌐Россия 20"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "66.90.90.13",
+            "port": 8443,
+            "users": [
+              {
+                "id": "0d81b209-0722-4b32-9163-542f54ba56ed",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "ai-6a936d01.noooo.win",
+          "fingerprint": "edge",
+          "allowInsecure": true
+        }
+      },
+      "tag": "cand65",
+      "remarks": "🇷🇺🌐Россия 21"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "66.90.90.20",
+            "port": 8443,
+            "users": [
+              {
+                "id": "0d81b209-0722-4b32-9163-542f54ba56ed",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "ai-6a936d01.noooo.win",
+          "fingerprint": "firefox",
+          "allowInsecure": true
+        }
+      },
+      "tag": "cand66",
+      "remarks": "🇷🇺🌐Россия 22"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "fast_s10.slopllex.app",
+            "port": 443,
+            "users": [
+              {
+                "id": "0bc09995-7ee6-462e-bfc3-75c880b9d675",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "fast_s10.slopllex.app",
+          "fingerprint": "qq",
+          "allowInsecure": true
+        }
+      },
+      "tag": "cand67",
+      "remarks": "🇷🇺🌐Россия 23"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "185.71.67.81",
+            "port": 443,
+            "users": [
+              {
+                "id": "09a8591d-aa3d-4958-8fd6-39ead719fa85",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "stream.benz.ink",
+          "fingerprint": "firefox",
+          "allowInsecure": true
+        },
+        "wsSettings": {
+          "path": "api/v2/stream/hafiz",
+          "headers": {
+            "Host": "stream.benz.ink"
+          }
+        }
+      },
+      "tag": "cand68",
+      "remarks": "🇷🇺🌐Россия 24"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "188.225.47.234",
+            "port": 4100,
+            "users": [
+              {
+                "id": "7b2ce6b0-6d2b-4926-b7bf-6247eb1a0050",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "none",
+        "wsSettings": {
+          "path": "/v1",
+          "headers": {
+            "Host": ""
+          }
+        }
+      },
+      "tag": "cand69",
+      "remarks": "🇷🇺🌐Россия 25"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "141.8.199.212",
+            "port": 4100,
+            "users": [
+              {
+                "id": "fc72e947-b8dd-4de0-9ec7-2b0050c9f83a",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "none",
+        "wsSettings": {
+          "path": "/v1",
+          "headers": {
+            "Host": "live.ok.ru"
+          }
+        }
+      },
+      "tag": "cand70",
+      "remarks": "🇷🇺🌐Россия 26"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "46.243.234.72",
+            "port": 2053,
+            "users": [
+              {
+                "id": "24708d62-a508-4c63-a860-7d4e04e440b1",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "5post-gate.x5.ru",
+          "publicKey": "IDjWshY2nmbQJzUme5TMymI-RI99Zku45lO9k1HKyTA",
+          "shortId": "20a080af5636a681",
+          "fingerprint": "edge",
+          "show": false
+        },
+        "grpcSettings": {
+          "serviceName": "grpc-wl"
+        }
+      },
+      "tag": "cand71",
+      "remarks": "🇷🇺🌐Россия 27"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "185.185.69.251",
+            "port": 2200,
+            "users": [
+              {
+                "id": "307998ce-9dc2-473b-81bb-6c359817df5c",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "none",
+        "wsSettings": {
+          "path": "/v1",
+          "headers": {
+            "Host": "rzd.ru"
+          }
+        }
+      },
+      "tag": "cand72",
+      "remarks": "🇷🇺🌐Россия 28"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "5.42.121.52",
+            "port": 2200,
+            "users": [
+              {
+                "id": "64bd5231-8c49-44f4-8bc0-998eef787d05",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "none",
+        "wsSettings": {
+          "path": "/v1",
+          "headers": {
+            "Host": "rzd.ru"
+          }
+        }
+      },
+      "tag": "cand73",
+      "remarks": "🇷🇺🌐Россия 29"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "194.26.229.157",
+            "port": 2200,
+            "users": [
+              {
+                "id": "c05888f0-4029-45c8-bea7-ea5eff564462",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "none",
+        "wsSettings": {
+          "path": "/v1",
+          "headers": {
+            "Host": ""
+          }
+        }
+      },
+      "tag": "cand74",
+      "remarks": "🇷🇺🌐Россия 30"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "87.249.54.48",
+            "port": 2200,
+            "users": [
+              {
+                "id": "fe3489e2-6b59-4adb-91f3-e34300a13d5a",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "none",
+        "wsSettings": {
+          "path": "/v1",
+          "headers": {
+            "Host": "rzd.ru"
+          }
+        }
+      },
+      "tag": "cand75",
+      "remarks": "🇷🇺🌐Россия 31"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "178.72.147.246",
+            "port": 2200,
+            "users": [
+              {
+                "id": "099f0859-cb81-4a57-b6d8-2c8e18030627",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "none",
+        "wsSettings": {
+          "path": "/v1",
+          "headers": {
+            "Host": "rzd.ru"
+          }
+        }
+      },
+      "tag": "cand76",
+      "remarks": "🇷🇺🌐Россия 32"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "168.222.202.114",
+            "port": 2200,
+            "users": [
+              {
+                "id": "9c2307ba-7972-4ea5-a199-f2c80049be7f",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "none",
+        "wsSettings": {
+          "path": "/v1",
+          "headers": {
+            "Host": "rzd.ru"
+          }
+        }
+      },
+      "tag": "cand77",
+      "remarks": "🇷🇺🌐Россия 33"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "90.156.225.227",
+            "port": 443,
+            "users": [
+              {
+                "id": "75079a7f-75b5-418b-8a65-f7b2f438cd4a",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "dl.google.com",
+          "publicKey": "bj4GN5p31ILpE4DZL7FLPHUbB0rzcgWKYzdQ3SKhtVM",
+          "shortId": "",
+          "fingerprint": "firefox",
+          "show": false
+        },
+        "grpcSettings": {
+          "serviceName": "grpc-tunnel"
+        }
+      },
+      "tag": "cand78",
+      "remarks": "🇷🇺🌐Россия 34"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "185.185.69.26",
+            "port": 2200,
+            "users": [
+              {
+                "id": "7ee53e03-96ed-4121-9da2-62f3d3374506",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "none",
+        "wsSettings": {
+          "path": "/v1",
+          "headers": {
+            "Host": "rzd.ru"
+          }
+        }
+      },
+      "tag": "cand79",
+      "remarks": "🇷🇺🌐Россия 35"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "178.72.147.249",
+            "port": 4100,
+            "users": [
+              {
+                "id": "1cb011db-0211-4120-8984-13d8510a612b",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "none",
+        "wsSettings": {
+          "path": "/v1",
+          "headers": {
+            "Host": "live.ok.ru"
+          }
+        }
+      },
+      "tag": "cand80",
+      "remarks": "🇷🇺🌐Россия 36"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "185.91.53.4",
+            "port": 443,
+            "users": [
+              {
+                "id": "a51678f1-13e7-4803-8aa3-e9aff46d5d0a",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "360.yandex.ru",
+          "publicKey": "VaKp9XjMqT7lA4F3b6hpdF6fmsiY4B_hz6MzT6fv938",
+          "shortId": "",
+          "fingerprint": "firefox",
+          "show": false
+        },
+        "grpcSettings": {
+          "serviceName": ""
+        }
+      },
+      "tag": "cand81",
+      "remarks": "🇷🇺🌐Россия 37"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "62.113.37.80",
+            "port": 2053,
+            "users": [
+              {
+                "id": "bd7501b8-5c29-4b4d-a060-76446349c835",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "bz11.wba-pn.ru",
+          "fingerprint": "safari",
+          "allowInsecure": true
+        },
+        "wsSettings": {
+          "path": "/",
+          "headers": {
+            "Host": ""
+          }
+        }
+      },
+      "tag": "cand82",
+      "remarks": "🇷🇺🌐Россия 38"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "158.160.139.156",
+            "port": 443,
+            "users": [
+              {
+                "id": "e30e7608-b9a6-48ca-8f10-203c79eadb5d",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "yandex.ru",
+          "publicKey": "WrPShaEtQUXeKeyWDuELzBsd_ygDsU-k2bL1Avi13xI",
+          "shortId": "",
+          "fingerprint": "safari",
+          "show": false
+        }
+      },
+      "tag": "cand83",
+      "remarks": "🇷🇺🌐Россия 39"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "185.185.69.26",
+            "port": 4100,
+            "users": [
+              {
+                "id": "7ee53e03-96ed-4121-9da2-62f3d3374506",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "none",
+        "wsSettings": {
+          "path": "/v1",
+          "headers": {
+            "Host": "live.ok.ru"
+          }
+        }
+      },
+      "tag": "cand84",
+      "remarks": "🇷🇺🌐Россия 40"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "62.113.106.165",
+            "port": 5012,
+            "users": [
+              {
+                "id": "1206bad5-dcc9-410e-9595-d9fe9ee54085",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "pl.aeternavpn.space",
+          "publicKey": "S-hF71pRzH9xT1zd3spq6RGlXCrpzyWpTmVKHbdTERg",
+          "shortId": "a1b2c3d4",
+          "fingerprint": "qq",
+          "show": false
+        }
+      },
+      "tag": "cand85",
+      "remarks": "🇷🇺🌐Россия 41"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "77.222.47.204",
+            "port": 4100,
+            "users": [
+              {
+                "id": "5c43b6d8-f71a-46d6-b804-f86349e6f313",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "none",
+        "wsSettings": {
+          "path": "/v1",
+          "headers": {
+            "Host": "live.ok.ru"
+          }
+        }
+      },
+      "tag": "cand86",
+      "remarks": "🇷🇺🌐Россия 42"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "194.55.239.164",
+            "port": 443,
+            "users": [
+              {
+                "id": "0cfee0f7-de6d-4d72-95c5-bb5d35094974",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "ads.vk.ru",
+          "publicKey": "sdnD0vxmj8kHBOoVM8TE9IyBCGwnKNB8hZVaHp_Zfjk",
+          "shortId": "2cd5",
+          "fingerprint": "firefox",
+          "show": false
+        }
+      },
+      "tag": "cand87",
+      "remarks": "🇷🇺🌐Россия 43"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "80.90.188.160",
+            "port": 4100,
+            "users": [
+              {
+                "id": "f84579d4-3031-47ac-9536-c67d196fb0a3",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "none",
+        "wsSettings": {
+          "path": "/v1",
+          "headers": {
+            "Host": "live.ok.ru"
+          }
+        }
+      },
+      "tag": "cand88",
+      "remarks": "🇷🇺🌐Россия 44"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "194.26.229.157",
+            "port": 4100,
+            "users": [
+              {
+                "id": "c05888f0-4029-45c8-bea7-ea5eff564462",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "none",
+        "wsSettings": {
+          "path": "/v1",
+          "headers": {
+            "Host": "live.ok.ru"
+          }
+        }
+      },
+      "tag": "cand89",
+      "remarks": "🇷🇺🌐Россия 45"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "188.225.25.113",
+            "port": 4100,
+            "users": [
+              {
+                "id": "ed1fd11d-cbf7-4a73-9e98-c7f332b37117",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "none",
+        "wsSettings": {
+          "path": "/v1",
+          "headers": {
+            "Host": "live.ok.ru"
+          }
+        }
+      },
+      "tag": "cand90",
+      "remarks": "🇷🇺🌐Россия 46"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "178.72.147.246",
+            "port": 4100,
+            "users": [
+              {
+                "id": "6d662736-24ea-4f8e-9e73-acbc14d09cb1",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "none",
+        "wsSettings": {
+          "path": "/v1",
+          "headers": {
+            "Host": "live.ok.ru"
+          }
+        }
+      },
+      "tag": "cand91",
+      "remarks": "🇷🇺🌐Россия 47"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "178.248.236.77",
+            "port": 58443,
+            "users": [
+              {
+                "id": "f2ea3f68-6e31-4e07-a78c-fff6ebe246c3",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "rutube.ru",
+          "publicKey": "IKz1z0scyrYd-eQD9AcVvmoJDcITPXlKu90guFPrUh4",
+          "shortId": "1f8c1a2e913d1f05",
+          "fingerprint": "qq",
+          "show": false
+        }
+      },
+      "tag": "cand92",
+      "remarks": "🇷🇺🌐Россия 48"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "81.31.246.124",
+            "port": 2200,
+            "users": [
+              {
+                "id": "a4d52fe0-f904-48d3-b579-25d5b79c79b2",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "none",
+        "wsSettings": {
+          "path": "/v1",
+          "headers": {
+            "Host": "rzd.ru"
+          }
+        }
+      },
+      "tag": "cand93",
+      "remarks": "🇷🇺🌐Россия 49"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "46.16.36.222",
+            "port": 11448,
+            "users": [
+              {
+                "id": "d7430ae7-320c-4658-808b-3006d0627d82",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "mageia.ubuntuhosting.host",
+          "publicKey": "gUU8rOYxXtE2ENvQ-RLrmaON2lw2L9lObStu-EaJxhs",
+          "shortId": "b34f41089f1e",
+          "fingerprint": "ios",
+          "show": false
+        },
+        "grpcSettings": {
+          "serviceName": "gun"
+        }
+      },
+      "tag": "cand94",
+      "remarks": "🇷🇺🌐Россия 50"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "46.16.36.222",
+            "port": 11446,
+            "users": [
+              {
+                "id": "d7430ae7-320c-4658-808b-3006d0627d82",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "mageia.ubuntuhosting.host",
+          "publicKey": "gUU8rOYxXtE2ENvQ-RLrmaON2lw2L9lObStu-EaJxhs",
+          "shortId": "b34f41089f1e",
+          "fingerprint": "ios",
+          "show": false
+        },
+        "grpcSettings": {
+          "serviceName": "gun"
+        }
+      },
+      "tag": "cand95",
+      "remarks": "🇷🇺🌐Россия 51"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "93.183.80.119",
+            "port": 443,
+            "users": [
+              {
+                "id": "d7430ae7-320c-4658-808b-3006d0627d82",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "endeavouros.ubuntuhosting.host",
+          "publicKey": "nbrx6gGjaQ27MLBl-0Tp23ALk9sm95NeOFxhP2ufO1E",
+          "shortId": "707c8615b9",
+          "fingerprint": "chrome",
+          "show": false
+        },
+        "grpcSettings": {
+          "serviceName": "gun"
+        }
+      },
+      "tag": "cand96",
+      "remarks": "🇷🇺🌐Россия 52"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "147.45.163.134",
+            "port": 443,
+            "users": [
+              {
+                "id": "d7430ae7-320c-4658-808b-3006d0627d82",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "endeavouros.ubuntuhosting.host",
+          "publicKey": "nbrx6gGjaQ27MLBl-0Tp23ALk9sm95NeOFxhP2ufO1E",
+          "shortId": "3a2c",
+          "fingerprint": "chrome",
+          "show": false
+        },
+        "grpcSettings": {
+          "serviceName": "gun"
+        }
+      },
+      "tag": "cand97",
+      "remarks": "🇷🇺🌐Россия 53"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "217.199.254.215",
+            "port": 443,
+            "users": [
+              {
+                "id": "d7430ae7-320c-4658-808b-3006d0627d82",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "endeavouros.ubuntuhosting.host",
+          "publicKey": "nbrx6gGjaQ27MLBl-0Tp23ALk9sm95NeOFxhP2ufO1E",
+          "shortId": "707c8615b9",
+          "fingerprint": "ios",
+          "show": false
+        },
+        "grpcSettings": {
+          "serviceName": "gun"
+        }
+      },
+      "tag": "cand98",
+      "remarks": "🇷🇺🌐Россия 54"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "wl-1.myfreedom.rest",
+            "port": 443,
+            "users": [
+              {
+                "id": "0cfee0f7-de6d-4d72-95c5-bb5d35094974",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "ads.vk.ru",
+          "publicKey": "sdnD0vxmj8kHBOoVM8TE9IyBCGwnKNB8hZVaHp_Zfjk",
+          "shortId": "c427",
+          "fingerprint": "firefox",
+          "show": false
+        }
+      },
+      "tag": "cand99",
+      "remarks": "🇷🇺🌐Россия 55"
     },
     {
       "protocol": "vless",
@@ -1356,7 +3047,7 @@
           "serverName": "api-maps.yandex.ru",
           "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
           "shortId": "6ba85179e30d4fc2",
-          "fingerprint": "chrome",
+          "fingerprint": "edge",
           "show": false
         },
         "grpcSettings": {
@@ -1428,702 +3119,140 @@
           "domain:2gis.uz",
           "domain:300.ya.ru",
           "domain:5ka.ru",
-          "domain:742231.ms.ok.ru",
-          "domain:8ofpsm7zqu.a.trbcdn.net",
           "domain:ad.mail.ru",
           "domain:adfox.yandex.ru",
           "domain:ads.sber.ru",
-          "domain:ads.viqeo.tv",
           "domain:ads.yandex",
           "domain:ads.yandex.ru",
           "domain:adv.vk.com",
-          "domain:adv.yandex.com",
           "domain:adv.yandex.ru",
-          "domain:adygeya.ru",
           "domain:aeroflot.ru",
           "domain:afisha.ru",
-          "domain:aif.ru",
-          "domain:alfabank.oavdo.amc",
           "domain:alfabank.ru",
           "domain:alfabank.st",
           "domain:alfadirect.ru",
           "domain:alfaleasing.ru",
           "domain:alfastrah.ru",
-          "domain:alformacap.com",
-          "domain:alformacapital.com",
-          "domain:algoritmika.org",
-          "domain:alt-ad.mail.ru",
-          "domain:ams2-cdn.2gis.com",
           "domain:an.yandex.ru",
           "domain:analytics.vk.com",
           "domain:api-maps.yandex.ru",
-          "domain:api.blackrussia.online",
-          "domain:api.oneme.ru",
           "domain:apiok.ru",
-          "domain:appmetrica.yandex.com",
-          "domain:appmetrica.yandex.net",
           "domain:appmetrica.yandex.ru",
-          "domain:appmetrica.yango.com",
           "domain:appsmail.ru",
           "domain:attachmail.ru",
-          "domain:attachmy.com",
           "domain:avito.ru",
           "domain:avito.st",
-          "domain:baltbank.ru",
           "domain:beeline.ru",
           "domain:boxberry.ru",
-          "domain:bps-sberbank.by",
-          "domain:bs.yandex.ru",
-          "domain:busfor.ru",
-          "domain:cabconnect.org",
-          "domain:capitalt.ru",
           "domain:cbr.ru",
           "domain:cdek.ru",
           "domain:cdn-tinkoff.ru",
           "domain:cdn-vk.net",
           "domain:cdn-vk.ru",
           "domain:cdnmail.ru",
-          "domain:cdnsix.vk-com.ru",
           "domain:citilink.ru",
           "domain:clck.yandex.ru",
-          "domain:clickstream.sberbank.ru",
           "domain:cloud.ru",
-          "domain:cloudru.cn",
-          "domain:clstorage.net",
           "domain:connectivitycheck.gstatic.com",
           "domain:counter.yandex.ru",
-          "domain:cybersport.ru",
-          "domain:d-assets.2gis.ru",
-          "domain:d5de4k0ri8jba7ucdbt6.apigw.yandexcloud.net",
-          "domain:datacloudmy.com",
-          "domain:dbankcdn.ru",
-          "domain:dbankcloud.ru",
-          "domain:dev-my.com",
-          "domain:digital-wb.ru",
-          "domain:digital.gov.ru",
-          "domain:digitalwb.ru",
-          "domain:disk.2gis.com",
-          "domain:dl.black-sys.com",
-          "domain:dl.blackrussia.online",
-          "domain:dnevnik.ru",
-          "domain:dns-shop.ru",
-          "domain:dom.gosuslugi.ru",
-          "domain:dom.ru",
-          "domain:drive2.ru",
-          "domain:driveawaytaxi.org",
-          "domain:drweb.com",
-          "domain:drweb.ru",
           "domain:dzen.ru",
           "domain:dzeninfra.ru",
           "domain:eldorado.ru",
           "domain:esia.gosuslugi.ru",
-          "domain:etradebook.ru",
-          "domain:fastvps.ru",
-          "domain:fb-cdn.premier.one",
-          "domain:fd.oneme.ru",
-          "domain:flypobeda.ru",
           "domain:forbes.ru",
           "domain:gazeta.ru",
-          "domain:gazprombank.com",
-          "domain:gazprombank.investments",
           "domain:gazprombank.ru",
-          "domain:gazprombank.tech",
           "domain:giga.chat",
           "domain:gismeteo.ru",
           "domain:gitverse.ru",
           "domain:go.yandex.ru",
-          "domain:gogettaxi.org",
-          "domain:goskey.ru",
-          "domain:gosteh.ru",
           "domain:gosuslugi.ru",
-          "domain:goup.ai",
           "domain:gov.ru",
-          "domain:gu-st.ru",
           "domain:headhunter.ru",
           "domain:hh.ru",
           "domain:homecredit.ru",
-          "domain:i.oneme.ru",
-          "domain:icqvideo.com",
-          "domain:imgsmail.ru",
-          "domain:insideok.ru",
-          "domain:investalfabank.com",
-          "domain:it-katok.ru",
           "domain:ivi.ru",
-          "domain:jua5fcnytm.a.trbcdn.net",
-          "domain:kaspersky.com",
           "domain:kaspersky.ru",
-          "domain:kassir.ru",
-          "domain:kazan.express",
-          "domain:kazanexpress.ru",
-          "domain:kinopoisk-ru.clstorage.net",
           "domain:kinopoisk.ru",
-          "domain:kontur.host",
-          "domain:kontur.ru",
           "domain:kp.ru",
           "domain:kuper.ru",
-          "domain:lamoda.am",
-          "domain:lamoda.by",
-          "domain:lamoda.kz",
           "domain:lamoda.ru",
-          "domain:lamoda.uz",
-          "domain:leader-id.ru",
           "domain:lemanapro.ru",
-          "domain:lenta.com",
           "domain:lenta.ru",
           "domain:litres.ru",
-          "domain:log.dzen.ru",
-          "domain:magnit-ru.injector.3ebra.net",
           "domain:magnit.com",
           "domain:magnit.ru",
-          "domain:magnitcosmetic.ru",
-          "domain:mail.rambler.ru",
           "domain:mail.ru",
           "domain:maps.yandex.ru",
-          "domain:max.ru",
           "domain:mc.yandex.ru",
           "domain:megafon.ru",
           "domain:megamarket.ru",
-          "domain:megamarket.tech",
-          "domain:meteum.ai",
-          "domain:metrics.viqeo.tv",
-          "domain:metrika.yandex.com",
-          "domain:metrika.yandex.net",
           "domain:metrika.yandex.ru",
-          "domain:miniapps.max.ru",
           "domain:mir.ru",
-          "domain:mnogolososya.ru",
           "domain:moex.com",
-          "domain:more.tv",
           "domain:mos.ru",
-          "domain:mosreg.ru",
-          "domain:mpgw-my.com",
-          "domain:mradx.net",
-          "domain:mrgcdn.ru",
-          "domain:ms.dzen.ru",
-          "domain:ms.vk.com",
-          "domain:ms.vk.ru",
-          "domain:mts-bank.ru",
           "domain:mts.ru",
-          "domain:mtscdn.ru",
-          "domain:mtsdengi.ru",
-          "domain:music.yandex.ru",
           "domain:mvideo.ru",
-          "domain:mvk.com",
-          "domain:my-tbank.ru",
           "domain:my.com",
-          "domain:mycdn.me",
-          "domain:mymts.ru",
-          "domain:myvcloud.com",
           "domain:nalog.ru",
-          "domain:naydex.net",
-          "domain:novayagazeta-europe.eu",
           "domain:nspk.ru",
           "domain:ok.ru",
           "domain:okcdn.ru",
-          "domain:okko.sport",
           "domain:okko.tv",
-          "domain:okkoapi.tv",
           "domain:oneme.ru",
           "domain:otkritie.ru",
-          "domain:ozon-credit.ru",
-          "domain:ozon-dostavka.ru",
-          "domain:ozon-tech.ru",
-          "domain:ozon.by",
-          "domain:ozon.com",
-          "domain:ozon.com.by",
-          "domain:ozon.com.kz",
-          "domain:ozon.dev",
-          "domain:ozon.express",
-          "domain:ozon.kz",
-          "domain:ozon.li",
           "domain:ozon.ru",
-          "domain:ozon.st",
-          "domain:ozon.tech",
-          "domain:ozon.tm",
-          "domain:ozon.travel",
-          "domain:ozonapis.com",
-          "domain:ozoncamp.pro",
-          "domain:ozoncard.ru",
-          "domain:ozoncom.by",
-          "domain:ozoncorporate.ru",
-          "domain:ozone.ru",
-          "domain:ozonglobalevents.com",
-          "domain:ozonpartners.by",
-          "domain:ozonpartners.ru",
-          "domain:ozonrocet.by",
-          "domain:ozonroket.by",
-          "domain:ozonru.co.il",
-          "domain:ozonru.com",
-          "domain:ozonru.eu",
-          "domain:ozonru.me",
-          "domain:ozonsport.ru",
-          "domain:ozonstatus.ru",
-          "domain:ozonusercontent.com",
-          "domain:paywb.com",
+          "domain:ozon.by",
+          "domain:ozon.kz",
           "domain:paywb.ru",
           "domain:perekrestok.ru",
-          "domain:pervye.ru",
-          "domain:pgu.mos.ru",
           "domain:pochta.ru",
           "domain:pochtabank.ru",
           "domain:premier.one",
           "domain:psbank.ru",
-          "domain:r.mail.ru",
-          "domain:radar.imgsmail.ru",
           "domain:raiffeisen.ru",
-          "domain:rambler-co.ru",
           "domain:rambler.ru",
           "domain:rbc.ru",
-          "domain:rbcollect.ru",
-          "domain:rbcredit.ru",
           "domain:reg.ru",
-          "domain:relap.mail.ru",
-          "domain:reviews.2gis.com",
-          "domain:rocketozon.by",
-          "domain:rosbank-auto.ru",
-          "domain:rosbank-capital.ru",
-          "domain:rosbank-credit.com",
-          "domain:rosbank-dom.ru",
-          "domain:rosbank-leasing.ru",
           "domain:rosbank.ru",
-          "domain:roscosmos.ru",
-          "domain:roskazna.ru",
-          "domain:rostaxi.org",
           "domain:rostelecom.ru",
           "domain:rshb.ru",
-          "domain:rt.com",
           "domain:rt.ru",
-          "domain:rtbcdn.ru",
-          "domain:ruhub.tv",
           "domain:rustore.ru",
-          "domain:rustore.team",
-          "domain:rustore.tv",
-          "domain:rutarget.ru",
           "domain:rutube.ru",
-          "domain:rutubelist.ru",
-          "domain:rwb.ru",
-          "domain:rzd-bonus.ru",
           "domain:rzd.ru",
-          "domain:s3.yandex.net",
           "domain:samokat.ru",
-          "domain:sber-bank.by",
-          "domain:sber.pro",
           "domain:sber.ru",
-          "domain:sberauto.com",
-          "domain:sberbank-insurance.ru",
-          "domain:sberbank-tele.com",
-          "domain:sberbank.com",
           "domain:sberbank.ru",
-          "domain:sberbankaktivno.ru",
-          "domain:sberbankins.ru",
           "domain:sbercloud.ru",
-          "domain:sbercloud.tech",
           "domain:sberdevices.ru",
-          "domain:sberdisk.ru",
-          "domain:sberfactoring.ru",
-          "domain:sberhealth.ru",
-          "domain:sberindex.ru",
-          "domain:sberleasing.ru",
-          "domain:sberlogistics.ru",
           "domain:sbermarket.ru",
-          "domain:sbermarketing.ru",
-          "domain:sbermegamarket.ru",
           "domain:sbermobile.ru",
-          "domain:sberpb.ru",
-          "domain:sberspasibo.ru",
-          "domain:sbertech.ru",
-          "domain:sbertroika.ru",
-          "domain:sberzvuk.com",
           "domain:sbp.ru",
-          "domain:sbrf.ru",
-          "domain:servicecdn.ru",
-          "domain:shedevrum.ai",
-          "domain:sistema-capital.com",
-          "domain:smailru.net",
-          "domain:sourcecraft.dev",
           "domain:sovcombank.ru",
-          "domain:spasibosberbank.ru",
-          "domain:speedstream.ru",
-          "domain:sportmail.ru",
-          "domain:st.max.ru",
-          "domain:static-storage.net",
-          "domain:staticmy.com",
-          "domain:stats.vk-portal.net",
-          "domain:stv.ru",
-          "domain:t-bank-app.ru",
-          "domain:t-capital-funds.ru",
-          "domain:t-static.ru",
-          "domain:t-stekovka.ru",
-          "domain:t2.ru",
-          "domain:tamtam.chat",
-          "domain:target.my.com",
-          "domain:target.vk.ru",
-          "domain:tbank-online.com",
-          "domain:tbank.ru",
-          "domain:tech-mail.ru",
           "domain:tele2.ru",
-          "domain:ticketland.ru",
-          "domain:timeweb.cloud",
-          "domain:tinkoff-edu.ru",
-          "domain:tinkoff-group.com",
-          "domain:tinkoff.ai",
           "domain:tinkoff.ru",
-          "domain:tinkoffcapital.ru",
-          "domain:tinkoffinsurance.ru",
-          "domain:tinkoffinsurancefuture.ru",
-          "domain:tinkoffjournal.ru",
           "domain:tinkoffmobile.com",
-          "domain:top-fwz1.mail.ru",
-          "domain:tracker-api.my.com",
-          "domain:tracker-api.vk-analytics.ru",
-          "domain:tracker.my.com",
-          "domain:trbcdn.net",
-          "domain:tripadvisor.ru",
-          "domain:trvl.yandex.net",
-          "domain:tsx.x5static.net",
           "domain:tutu.ru",
-          "domain:tver.ru",
-          "domain:umschool.net",
           "domain:userapi.com",
-          "domain:userapi.ru",
           "domain:velostrana.ru",
-          "domain:viqeo.tv",
-          "domain:viqeotv.com",
-          "domain:vk-analytics.ru",
-          "domain:vk-apps.com",
-          "domain:vk-apps.ru",
-          "domain:vk-cdn.me",
-          "domain:vk-cdn.net",
-          "domain:vk-portal.net",
-          "domain:vk-records.ru",
-          "domain:vk-stadium.ru",
-          "domain:vk.cc",
           "domain:vk.com",
-          "domain:vk.company",
-          "domain:vk.design",
-          "domain:vk.link",
           "domain:vk.me",
-          "domain:vk.music",
           "domain:vk.ru",
-          "domain:vk.team",
           "domain:vk.video",
-          "domain:vkcache.com",
-          "domain:vkcdnservice.com",
-          "domain:vkclips.app",
-          "domain:vkcloud-static.ru",
-          "domain:vkcs.cloud",
-          "domain:vkfest.ru",
-          "domain:vkgo.app",
-          "domain:vklive.app",
-          "domain:vkmessenger.app",
-          "domain:vkmessenger.com",
-          "domain:vkontakte.com",
-          "domain:vkontakte.ru",
-          "domain:vkpay.app",
-          "domain:vkpay.com",
-          "domain:vkpay.io",
           "domain:vkpay.ru",
-          "domain:vkplay-arena.ru",
-          "domain:vkplay.live",
-          "domain:vkplay.ru",
-          "domain:vktech-static.ru",
-          "domain:vkuser.net",
-          "domain:vkuseraudio.com",
-          "domain:vkuseraudio.net",
-          "domain:vkuseraudio.ru",
-          "domain:vkusercdn.ru",
-          "domain:vkuserlive.com",
-          "domain:vkuserlive.net",
-          "domain:vkuserphoto.ru",
-          "domain:vkuservideo.com",
-          "domain:vkuservideo.net",
-          "domain:vkuservideo.ru",
-          "domain:vkvideo.ru",
-          "domain:vladikavkaz.ru",
-          "domain:vladimir.ru",
-          "domain:vladivostok.ru",
-          "domain:vmailru.net",
           "domain:vtb.ru",
-          "domain:wb-cloud.ru",
           "domain:wb.ru",
-          "domain:wbbasket.ru",
-          "domain:wbmail.ru",
-          "domain:wbstatic.net",
-          "domain:wbstatic.ru",
-          "domain:web-static.mindbox.ru",
-          "domain:wildberries.am",
-          "domain:wildberries.by",
-          "domain:wildberries.co.il",
-          "domain:wildberries.es",
-          "domain:wildberries.eu",
-          "domain:wildberries.ge",
-          "domain:wildberries.kg",
-          "domain:wildberries.kz",
-          "domain:wildberries.lt",
           "domain:wildberries.ru",
-          "domain:wildberries.tj",
-          "domain:wildberries.tm",
-          "domain:wildberries.uz",
-          "domain:wildberriess.ru",
           "domain:wink.ru",
-          "domain:ws-api.oneme.ru",
-          "domain:www.gismeteo.ru",
-          "domain:x5.ru",
-          "domain:xmail.ru",
-          "domain:xn----7sbaba0dc6cdn7cxcj.com",
-          "domain:xn--80ajghhoc2aj1c8b.xn--p1ai",
-          "domain:xn--90aifd0az.shop",
-          "domain:xn--90aifd0aza.site",
-          "domain:xn--90aifd0azb.xn--p1acf",
-          "domain:xn--b1aechhj6bof8g5a.site",
           "domain:ya.ru",
-          "domain:yabs.yandex.ru",
           "domain:yandex",
-          "domain:yandex-bank.net",
-          "domain:yandex-metrica.ru",
-          "domain:yandex-net.ru",
-          "domain:yandex-team.ru",
-          "domain:yandex.aero",
-          "domain:yandex.asia",
-          "domain:yandex.az",
-          "domain:yandex.by",
-          "domain:yandex.cloud",
-          "domain:yandex.co.il",
-          "domain:yandex.com",
-          "domain:yandex.com.am",
-          "domain:yandex.com.ge",
-          "domain:yandex.com.ru",
-          "domain:yandex.com.tr",
-          "domain:yandex.com.ua",
-          "domain:yandex.de",
-          "domain:yandex.ee",
-          "domain:yandex.eu",
-          "domain:yandex.fi",
-          "domain:yandex.fr",
-          "domain:yandex.jobs",
-          "domain:yandex.kg",
-          "domain:yandex.kz",
-          "domain:yandex.lt",
-          "domain:yandex.lv",
-          "domain:yandex.md",
-          "domain:yandex.mobi",
-          "domain:yandex.net",
-          "domain:yandex.org",
-          "domain:yandex.pl",
-          "domain:yandex.plus",
           "domain:yandex.ru",
-          "domain:yandex.st",
-          "domain:yandex.sx",
-          "domain:yandex.tj",
-          "domain:yandex.tm",
-          "domain:yandex.tr",
-          "domain:yandex.ua",
-          "domain:yandex.uz",
-          "domain:yandexadexchange.net",
+          "domain:yandex.net",
           "domain:yandexcloud.net",
-          "domain:yandexcom.net",
-          "domain:yandexdns.ru",
-          "domain:yandexgo.com",
-          "domain:yandexlyceum.ru",
-          "domain:yandexmetrica.com",
-          "domain:yandexwebcache.net",
-          "domain:yandexwebcache.org",
-          "domain:yango-ads.com",
-          "domain:yango-b2b.com",
-          "domain:yango-team.com",
-          "domain:yango-tech.com",
-          "domain:yango.africa",
-          "domain:yango.ao",
-          "domain:yango.bh",
-          "domain:yango.co.il",
-          "domain:yango.com",
-          "domain:yango.fi",
-          "domain:yango.qa",
-          "domain:yango.taxi",
-          "domain:yango.tech",
-          "domain:yangofellowship.com",
-          "domain:yastatic-net.ru",
           "domain:yastatic.net",
-          "domain:yccdn.ru",
-          "domain:youla-web-static.mrgcdn.ru",
-          "domain:youtu.be",
           "domain:youtube-nocookie.com",
-          "full:1l-hit.mail.ru",
-          "full:1l-hit.vkplay.ru",
-          "full:ad.ozone.ru",
-          "full:ad4.mail.ru",
-          "full:adblogger.vk.com",
-          "full:adblogger.vk.ru",
-          "full:adfstat.yandex.ru",
-          "full:ads-gate.wildberries.ru",
-          "full:ads-integration.rustore.ru",
-          "full:ads-media.wildberries.ru",
-          "full:ads.rustore.ru",
-          "full:ads.vk.com",
-          "full:ads.vk.ru",
-          "full:ads.wildberries.ru",
-          "full:ads.yandex.com",
-          "full:ads.yango.com",
-          "full:adsdk.yandex.ru",
-          "full:adv.ozon.ru",
-          "full:adv.rustore.ru",
-          "full:adv.vk.ru",
-          "full:advert-api-sandbox.wb.ru",
-          "full:advert-api-sandbox.wildberries.ru",
-          "full:advert-api.wb.ru",
-          "full:advert-api.wildberries.ru",
-          "full:advert-media-api.wb.ru",
-          "full:advert-media-api.wildberries.ru",
-          "full:advk.vk.ru",
-          "full:agency-adv.ozon.ru",
-          "full:alt-r.my.com",
-          "full:amc.yandex.ru",
-          "full:an.mail.ru",
-          "full:analytics-adv.ozon.ru",
-          "full:analytics-stage.wildberries.ru",
-          "full:analytics.mobile.yandex.net",
-          "full:analytics.vk.ru",
-          "full:analytics.wildberries.ru",
-          "full:b2.mail.ru",
-          "full:beginners-adv.ozon.ru",
-          "full:bs.mail.ru",
-          "full:clck.yandex.com",
-          "full:clck.yandex.net",
-          "full:clck.yango.com",
-          "full:click.rustore.ru",
-          "full:edu.tinkoff.ru",
-          "full:education.tbank.ru",
-          "full:error-tracking.megamarket.tech",
-          "full:go.yandex",
-          "full:google-analytics-suite.ozon.ru",
-          "full:informer.yandex.ru",
-          "full:loyalnost-adv.ozon.ru",
-          "full:marketing-info.wildberries.ru",
-          "full:marketplace-sentry.wb.ru",
-          "full:mc.yandex.com",
-          "full:mc.yandex.net",
-          "full:mc.yango.com",
-          "full:new-adv.ozon.ru",
-          "full:pixel.rustore.ru",
-          "full:pixel.yandex.com",
-          "full:prodvizhenie-adv.ozon.ru",
-          "full:questions-adv.ozon.ru",
-          "full:r0.mail.ru",
-          "full:r0.mradx.net",
-          "full:r1.mail.ru",
-          "full:reklama.mail.ru",
-          "full:report.ap.yandex-net.ru",
-          "full:rs.mail.ru",
-          "full:sberpro.vedomosti.ru",
-          "full:sentry-ng.g.smailru.net",
-          "full:sentry.dev-my.com",
-          "full:sentry.ozon.ru",
-          "full:sentry.rustore.ru",
-          "full:sentry.sberauto.com",
-          "full:sentry.viqeo.tv",
-          "full:sentry.wb.ru",
-          "full:srch-telemeter10.g.smailru.net",
-          "full:st-ok-pts.cdn-vk.ru",
-          "full:st-ok.cdn-vk.ru",
-          "full:stacks.vk-portal.net",
-          "full:stats.rustore.ru",
-          "full:stats.vk-portal.net",
-          "full:t.mail.ru",
-          "full:target.vk.com",
-          "full:top-staging.mail.ru",
-          "full:tracing-http.megamarket.tech",
-          "full:visor.sberbank.ru",
-          "full:web-analytics.wildberries.ru",
-          "full:whiteline.mail.ru",
-          "full:xapi.ozon.by",
-          "full:xapi.ozon.com",
-          "full:xapi.ozon.com.by",
-          "full:xapi.ozon.com.kz",
-          "full:xapi.ozon.kz",
-          "full:xapi.ozon.ru",
-          "full:xapi.ozonru.me",
-          "full:xray.mail.ru",
-          "2gis",
-          "2gis.com",
-          "5ka",
-          "aeroflot",
-          "alfa",
-          "auchan",
-          "avito",
-          "avito.st",
-          "beeline",
-          "cbr",
-          "cdek",
-          "detmir",
-          "dzen",
-          "dzeninfra",
-          "giga.chat",
-          "gismeteo",
-          "goskey",
-          "gosuslugi",
-          "gov.ru",
-          "gu-st.ru",
-          "hh",
-          "imgsmail",
-          "ivi",
-          "kaspersky",
-          "kinopoisk",
-          "kion",
-          "kpcdn",
-          "kuper",
-          "lemanapro",
-          "lenta",
-          "magnit",
-          "mail.ru",
-          "megafon",
-          "megamarket",
-          "mos.ru",
-          "mradx.net",
-          "mts",
-          "mycdn.me",
-          "nalog",
-          "nspk",
-          "ok.ru",
-          "okcdn.ru",
-          "okko",
-          "okko.tv",
-          "ozon",
-          "perekrestok",
-          "pobeda",
-          "pochta",
-          "psbank",
-          "rambler",
-          "rbc",
-          "rt.ru",
-          "rustore",
-          "rutube",
-          "rzd",
-          "samokat",
-          "sberdevices",
-          "t2.ru",
-          "tele2",
-          "tutu",
-          "userapi",
-          "userapi.com",
-          "vk",
-          "vk-cdn.net",
-          "vk.com",
-          "vk.me",
-          "vkuser.net",
-          "vkuservideo",
-          "vkvideo",
-          "vtb",
-          "wb.ru",
-          "wbstatic.net",
-          "wildberries",
-          "wink",
-          "ya.ru",
-          "yandex",
-          "yandex.com",
-          "yandex.net",
-          "yandexcloud.net",
-          "yastatic",
-          "yastatic.net"
+          "domain:youtu.be"
         ],
         "outboundTag": "direct",
         "type": "field"
@@ -2143,18 +3272,91 @@
           "cand03",
           "cand04",
           "cand05",
+          "cand06",
+          "cand07",
           "cand08",
           "cand09",
           "cand10",
-          "cand11",
-          "cand12",
           "cand13",
           "cand14",
           "cand15",
           "cand16",
-          "cand17",
           "cand18",
+          "cand19",
           "cand20",
+          "cand21",
+          "cand22",
+          "cand26",
+          "cand27",
+          "cand31",
+          "cand32",
+          "cand33",
+          "cand34",
+          "cand35",
+          "cand36",
+          "cand37",
+          "cand38",
+          "cand39",
+          "cand40",
+          "cand41",
+          "cand42",
+          "cand43",
+          "cand44",
+          "cand45",
+          "cand46",
+          "cand47",
+          "cand48",
+          "cand49",
+          "cand50",
+          "cand51",
+          "cand52",
+          "cand53",
+          "cand54",
+          "cand55",
+          "cand56",
+          "cand57",
+          "cand58",
+          "cand59",
+          "cand60",
+          "cand61",
+          "cand62",
+          "cand63",
+          "cand64",
+          "cand65",
+          "cand66",
+          "cand67",
+          "cand68",
+          "cand69",
+          "cand70",
+          "cand71",
+          "cand72",
+          "cand73",
+          "cand74",
+          "cand75",
+          "cand76",
+          "cand77",
+          "cand78",
+          "cand79",
+          "cand80",
+          "cand81",
+          "cand82",
+          "cand83",
+          "cand84",
+          "cand85",
+          "cand86",
+          "cand87",
+          "cand88",
+          "cand89",
+          "cand90",
+          "cand91",
+          "cand92",
+          "cand93",
+          "cand94",
+          "cand95",
+          "cand96",
+          "cand97",
+          "cand98",
+          "cand99",
           "white01",
           "white02"
         ],
@@ -2183,18 +3385,91 @@
       "cand03",
       "cand04",
       "cand05",
+      "cand06",
+      "cand07",
       "cand08",
       "cand09",
       "cand10",
-      "cand11",
-      "cand12",
       "cand13",
       "cand14",
       "cand15",
       "cand16",
-      "cand17",
       "cand18",
+      "cand19",
       "cand20",
+      "cand21",
+      "cand22",
+      "cand26",
+      "cand27",
+      "cand31",
+      "cand32",
+      "cand33",
+      "cand34",
+      "cand35",
+      "cand36",
+      "cand37",
+      "cand38",
+      "cand39",
+      "cand40",
+      "cand41",
+      "cand42",
+      "cand43",
+      "cand44",
+      "cand45",
+      "cand46",
+      "cand47",
+      "cand48",
+      "cand49",
+      "cand50",
+      "cand51",
+      "cand52",
+      "cand53",
+      "cand54",
+      "cand55",
+      "cand56",
+      "cand57",
+      "cand58",
+      "cand59",
+      "cand60",
+      "cand61",
+      "cand62",
+      "cand63",
+      "cand64",
+      "cand65",
+      "cand66",
+      "cand67",
+      "cand68",
+      "cand69",
+      "cand70",
+      "cand71",
+      "cand72",
+      "cand73",
+      "cand74",
+      "cand75",
+      "cand76",
+      "cand77",
+      "cand78",
+      "cand79",
+      "cand80",
+      "cand81",
+      "cand82",
+      "cand83",
+      "cand84",
+      "cand85",
+      "cand86",
+      "cand87",
+      "cand88",
+      "cand89",
+      "cand90",
+      "cand91",
+      "cand92",
+      "cand93",
+      "cand94",
+      "cand95",
+      "cand96",
+      "cand97",
+      "cand98",
+      "cand99",
       "white01",
       "white02"
     ]
