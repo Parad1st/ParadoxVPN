@@ -11,23 +11,18 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
 :root{
-  --bg:#f5f5f7;
-  --tile:#fbfbfd;
-  --text:#1d1d1f;
-  --muted:#6e6e73;
-  --blue:#0071e3;
-  --radius:28px;
-  --gap:12px;
-  --ease:cubic-bezier(.25,.1,.25,1);
+  --bg:#f5f5f7; --tile:#fbfbfd; --text:#1d1d1f; --muted:#6e6e73;
+  --blue:#0071e3; --radius:28px; --gap:14px;
   --font:-apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text","Helvetica Neue",Inter,Arial,sans-serif;
 }
 *{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{font-family:var(--font);background:var(--bg);color:var(--text);-webkit-font-smoothing:antialiased;line-height:1.5}
 img{max-width:100%;height:auto;display:block}
+
 .nav{position:sticky;top:0;z-index:100;height:52px;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;
   padding:0 20px;background:rgba(251,251,253,.8);backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px)}
-.nav-brand{justify-self:start;display:flex;align-items:center;gap:9px;font-size:17px;font-weight:600;letter-spacing:-.02em;color:var(--text);text-decoration:none}
+.nav-brand{justify-self:start;display:flex;align-items:center;gap:9px;font-size:17px;font-weight:700;letter-spacing:-.02em;color:var(--text);text-decoration:none}
 .nav-logo{width:26px;height:26px;border-radius:7px;object-fit:cover}
 .nav-menu{display:none;gap:32px}
 .nav-menu a{font-size:13px;color:rgba(29,29,31,.8);text-decoration:none;padding:17px 2px;border-bottom:2px solid transparent}
@@ -35,116 +30,98 @@ img{max-width:100%;height:auto;display:block}
 .nav-menu a[aria-current="page"]{color:var(--text);border-bottom-color:var(--text)}
 .nav-cta-wrap{justify-self:end}
 .btn{display:inline-flex;align-items:center;justify-content:center;border:0;cursor:pointer;text-decoration:none;
-  border-radius:980px;font-family:var(--font);transition:transform .2s var(--ease),opacity .2s}
+  border-radius:980px;font-family:var(--font);transition:transform .2s cubic-bezier(.25,.1,.25,1),opacity .2s}
 .btn:active{transform:scale(.97)}
 .btn:hover{opacity:.85}
 .btn:focus-visible{outline:3px solid var(--blue);outline-offset:2px}
 .btn-nav{background:#000;color:#fff;font-size:13px;font-weight:600;padding:8px 16px;min-height:34px}
-.btn-lg{background:#1d1d1f;color:#fff;font-size:17px;font-weight:400;padding:14px 30px;min-height:50px}
-.btn-white{background:#fff;color:var(--text);font-size:17px;font-weight:400;padding:14px 30px;min-height:48px}
-@media (min-width:834px){
-  .nav-menu{display:flex}
-  .nav{padding:0 32px}
-}
-.mesh{position:relative;overflow:hidden;background:#f5f5f7}
-.mesh::before{content:"";position:absolute;inset:0;z-index:0;opacity:0;filter:saturate(0);transform:scale(1.06);
-  transition:opacity 1.8s var(--ease),filter 1.8s var(--ease),transform 1.8s var(--ease);
+.btn-lg{background:#000;color:#fff;font-size:17px;padding:14px 30px;min-height:50px}
+.btn-white{background:#fff;color:var(--text);font-size:17px;padding:14px 30px;min-height:50px}
+@media (min-width:834px){ .nav-menu{display:flex} .nav{padding:0 32px} }
+
+.mesh{position:relative;overflow:hidden;
   background:
-   radial-gradient(90% 65% at 50% 0%, rgba(245,245,247,.9) 0%, rgba(245,245,247,0) 60%),
-   radial-gradient(110% 85% at 12% 32%, rgba(236,133,205,.95) 0%, rgba(236,133,205,0) 62%),
-   radial-gradient(110% 85% at 88% 28%, rgba(248,176,102,.95) 0%, rgba(248,176,102,0) 62%),
-   radial-gradient(120% 95% at 8% 90%, rgba(176,138,240,.95) 0%, rgba(176,138,240,0) 62%),
-   radial-gradient(120% 95% at 92% 92%, rgba(206,213,108,.95) 0%, rgba(206,213,108,0) 62%),
-   #f6e7d6}
-.mesh.visible::before{opacity:1;filter:saturate(1);transform:none}
-.mesh::after{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;opacity:.06;
+   radial-gradient(120% 90% at 15% 15%, rgba(243,182,216,.95) 0,rgba(243,182,216,0) 55%),
+   radial-gradient(120% 90% at 85% 10%, rgba(249,203,138,.95) 0,rgba(249,203,138,0) 55%),
+   radial-gradient(130% 100% at 15% 90%, rgba(196,166,238,.95) 0,rgba(196,166,238,0) 55%),
+   radial-gradient(130% 100% at 85% 90%, rgba(221,225,146,.95) 0,rgba(221,225,146,0) 55%),
+   #f6ecdf}
+.mesh::after{content:"";position:absolute;inset:0;pointer-events:none;opacity:.07;
   background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='240' height='240' filter='url(%23n)'/%3E%3C/svg%3E")}
-.mesh>*{position:relative;z-index:2}
-.hero{min-height:100vh;min-height:100svh;display:flex;flex-direction:column;align-items:center;padding:96px 20px 0;text-align:center}
-.hero-logo{display:inline-flex;align-items:center;gap:10px;font-size:25px;font-weight:600;letter-spacing:-.02em;margin-bottom:22px}
+
+/* Hero на весь экран, телефон стоит на нижнем крае */
+.hero{min-height:100vh;min-height:100svh;display:flex;flex-direction:column;align-items:center;
+  padding:88px 20px 0;text-align:center}
+.hero-logo{display:inline-flex;align-items:center;gap:10px;font-size:24px;font-weight:700;letter-spacing:-.02em;margin-bottom:20px}
 .hero-logo img{width:34px;height:34px;border-radius:9px}
-.hero h1{font-size:clamp(46px,7vw,104px);font-weight:700;letter-spacing:-.03em;line-height:1.04;max-width:1100px;margin:0 auto 34px}
-.hero .btn-lg{margin-bottom:0}
-.hero-phone{margin-top:auto;padding-top:64px;transform:translateY(14%)}
-.hero-phone img{width:min(540px,88vw);margin:0 auto}
-@media (max-width:640px){
-  .hero{padding-top:80px}
-  .hero-phone{transform:translateY(9%)}
-}
-@media (min-width:1024px){
-  .hero{padding-top:120px}
-}
+.hero h1{font-size:clamp(44px,7vw,96px);font-weight:800;letter-spacing:-.035em;line-height:1.03;max-width:1100px;margin:0 auto 30px}
+.hero .btn-lg{margin-bottom:48px}
+.hero-phone{margin-top:auto;width:100%;display:flex;justify-content:center}
+.hero-phone img{width:min(430px,82vw);max-height:62vh;max-height:62svh}
+@media (min-width:1024px){ .hero{padding-top:110px} }
+
 .tiles{max-width:1400px;margin:var(--gap) auto 0;padding:0 12px;display:grid;grid-template-columns:1fr;gap:var(--gap)}
-.tile{background:var(--tile);border-radius:var(--radius);padding:52px 26px;position:relative;overflow:hidden;box-shadow:0 10px 40px rgba(0,0,0,.05)}
-.tile h2{font-size:clamp(34px,4.6vw,64px);font-weight:700;letter-spacing:-.028em;line-height:1.07;margin-bottom:16px}
-.tile p.sub{font-size:clamp(16px,1.6vw,21px);font-weight:400;color:var(--muted);max-width:640px}
+.tile{background:var(--tile);border-radius:var(--radius);padding:52px 26px;position:relative;overflow:hidden}
+.tile h2{font-size:clamp(34px,4.6vw,64px);font-weight:800;letter-spacing:-.035em;line-height:1.05;margin-bottom:16px}
+.tile p.sub{font-size:clamp(16px,1.6vw,21px);color:var(--muted);max-width:640px}
 .chips{display:flex;gap:10px;flex-wrap:wrap;margin-top:26px}
-.chip{background:#f5f5f7;border-radius:980px;padding:10px 20px;font-size:15px;font-weight:500}
+.chip{background:#f5f5f7;border-radius:980px;padding:10px 20px;font-size:15px;font-weight:600}
 @media (min-width:834px){
-  .tiles{grid-template-columns:1fr 1fr;gap:14px;padding:0 20px}
+  .tiles{grid-template-columns:1fr 1fr;gap:16px;padding:0 22px}
   .tile--full{grid-column:1/-1}
 }
-@media (min-width:1024px){
-  .tile{padding:76px 68px}
-}
+@media (min-width:1024px){ .tile{padding:72px 64px} }
+
 .tile-split{display:grid;gap:36px}
-@media (min-width:1024px){
-  .tile-split{grid-template-columns:1.05fr 1fr;align-items:center;gap:72px}
-}
+@media (min-width:1024px){ .tile-split{grid-template-columns:1.05fr 1fr;align-items:center;gap:72px} }
+
 .globe-wrap svg{display:block;width:100%;height:auto}
 .g-outer{fill:none;stroke:#d2d2d7;stroke-width:1.5}
 .g-line{fill:none;stroke:#e6e6eb;stroke-width:1}
-.g-city{font:500 12px var(--font);fill:#86868b}
-.arc{fill:none;stroke-width:2.5;stroke-linecap:round;stroke-dasharray:300;stroke-dashoffset:300;animation:arc 4.5s var(--ease) infinite}
-.arc.a2{animation-delay:1.5s}
-.arc.a3{animation-delay:3s}
+.g-city{font:600 12px var(--font);fill:#86868b}
+.arc{fill:none;stroke-width:2.5;stroke-linecap:round;stroke-dasharray:300;stroke-dashoffset:300;animation:arc 4.5s cubic-bezier(.4,0,.2,1) infinite}
+.arc.a2{animation-delay:1.5s}.arc.a3{animation-delay:3s}
 @keyframes arc{0%{stroke-dashoffset:300;opacity:0}12%{opacity:1}55%{stroke-dashoffset:0;opacity:1}78%{opacity:0}100%{stroke-dashoffset:0;opacity:0}}
 .g-dot{animation:pulse 2.2s ease-in-out infinite}
-.g-dot.d2{animation-delay:.7s}
-.g-dot.d3{animation-delay:1.4s}
+.g-dot.d2{animation-delay:.7s}.g-dot.d3{animation-delay:1.4s}
 @keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
-.huge{font-size:clamp(44px,5.4vw,96px);line-height:1;margin-bottom:8px}
-.grad{background:linear-gradient(97deg,#ef7d9e 0%,#f29570 55%,#f2a95c 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
-.privacy-lines p{font-size:clamp(34px,4.6vw,64px);font-weight:700;letter-spacing:-.03em;line-height:1.08}
+
+.huge{font-size:clamp(40px,4.8vw,84px)!important;line-height:1.02!important;margin-bottom:10px!important}
+.grad{background:linear-gradient(100deg,#e0596e 0%,#ef8563 60%,#f2a05e 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+
+.privacy-lines p{font-size:clamp(34px,4.6vw,64px);font-weight:800;letter-spacing:-.035em;line-height:1.08}
 .privacy-lines p:nth-child(2){color:#6e6e73}
-.privacy-lines p:nth-child(3){background:linear-gradient(97deg,#ef7d9e,#f2a95c);-webkit-background-clip:text;background-clip:text;color:transparent}
+.privacy-lines p:nth-child(3){background:linear-gradient(100deg,#e0596e,#f2a05e);-webkit-background-clip:text;background-clip:text;color:transparent}
+
 .tile-gradient{color:#fff;
   background:
-   radial-gradient(130% 130% at 88% 12%, rgba(247,150,66,.95) 0%, rgba(247,150,66,0) 60%),
-   radial-gradient(120% 120% at 92% 88%, rgba(247,201,72,.92) 0%, rgba(247,201,72,0) 60%),
-   radial-gradient(130% 130% at 8% 92%, rgba(150,116,247,.95) 0%, rgba(150,116,247,0) 62%),
-   radial-gradient(120% 120% at 10% 8%, rgba(214,116,232,.92) 0%, rgba(214,116,232,0) 60%),
-   #e07fc0}
-.tile-gradient p.sub{color:rgba(255,255,255,.95)}
-.tile-gradient h2{font-size:clamp(44px,5.6vw,88px);letter-spacing:-.03em}
-.icon-circle{width:120px;height:120px;border-radius:50%;background:#fff;display:grid;place-items:center;margin-bottom:36px}
+   radial-gradient(140% 120% at 10% 0%, rgba(240,166,120,.95) 0,rgba(240,166,120,0) 60%),
+   radial-gradient(140% 120% at 95% 20%, rgba(243,196,120,.9) 0,rgba(243,196,120,0) 60%),
+   radial-gradient(150% 130% at 10% 100%, rgba(186,142,228,.95) 0,rgba(186,142,228,0) 60%),
+   radial-gradient(150% 130% at 90% 100%, rgba(190,196,110,.9) 0,rgba(190,196,110,0) 60%),#d99873}
+.tile-gradient p.sub{color:rgba(255,255,255,.92)}
+.tile-gradient h2{font-size:clamp(44px,5.6vw,88px)}
+.icon-circle{width:120px;height:120px;border-radius:50%;background:rgba(255,255,255,.92);display:grid;place-items:center;margin-bottom:36px}
 .icon-circle svg{width:56px;height:56px}
-@media (min-width:1024px){
-  .icon-circle{width:164px;height:164px}
-  .icon-circle svg{width:80px;height:80px}
-}
+@media (min-width:1024px){ .icon-circle{width:160px;height:160px} .icon-circle svg{width:76px;height:76px} }
+
 .cta{margin:var(--gap) 0 0;padding:120px 20px;text-align:center}
 .cta-appicon{width:92px;height:92px;border-radius:22px;object-fit:cover;margin:0 auto 28px}
-.cta h2{font-size:clamp(40px,6.4vw,96px);font-weight:700;letter-spacing:-.03em;line-height:1.04;margin-bottom:20px}
-.cta p{font-size:clamp(17px,2vw,27px);font-weight:600;letter-spacing:-.01em;max-width:760px;margin:0 auto 36px}
-@media (min-width:1024px){
-  .cta{padding:180px 40px}
-}
+.cta h2{font-size:clamp(40px,6.4vw,92px);font-weight:800;letter-spacing:-.035em;line-height:1.03;margin-bottom:20px}
+.cta p{font-size:clamp(17px,2vw,27px);font-weight:700;letter-spacing:-.01em;max-width:760px;margin:0 auto 36px}
+@media (min-width:1024px){ .cta{padding:180px 40px} }
+
 footer{padding:44px 20px 60px;max-width:1400px;margin:0 auto}
 .footnotes{font-size:12px;color:var(--muted);border-top:1px solid #d2d2d7;padding-top:20px;display:flex;flex-direction:column;gap:8px}
 .copyright{margin-top:20px;font-size:12px;color:var(--muted)}
-@media (min-width:1024px){
-  footer{padding:44px 40px 60px}
-}
-.reveal{opacity:0;transform:translateY(40px) scale(.98);transition:opacity 1s var(--ease),transform 1s var(--ease)}
+@media (min-width:1024px){ footer{padding:44px 40px 60px} }
+
+.reveal{opacity:0;transform:translateY(28px);transition:opacity .8s cubic-bezier(.25,.1,.25,1),transform .8s cubic-bezier(.25,.1,.25,1)}
 .reveal.visible{opacity:1;transform:none}
-[data-seq]>*{opacity:0;transform:translateY(28px);transition:opacity .9s var(--ease),transform .9s var(--ease)}
-[data-seq].visible>*{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){
   html{scroll-behavior:auto}
   *,*::before,*::after{animation:none!important;transition:none!important}
-  .reveal,[data-seq]>*{opacity:1;transform:none}
-  .mesh::before{opacity:1;filter:none;transform:none}
+  .reveal{opacity:1;transform:none}
 }
 </style>
 </head>
@@ -159,12 +136,12 @@ footer{padding:44px 20px 60px;max-width:1400px;margin:0 auto}
   <div class="nav-cta-wrap"><a class="btn btn-nav" href="connect.html">Подключиться</a></div>
 </nav>
 
-<header class="hero mesh" data-seq>
+<header class="hero mesh">
   <div class="hero-logo"><img src="img/logo.png" alt="Логотип ParadoxVPN" width="34" height="34">ParadoxVPN</div>
   <h1>Простота свободы.<br>В одном VPN.</h1>
   <a class="btn btn-lg" href="connect.html">Подключиться</a>
   <div class="hero-phone">
-    <img src="img/phone.png" alt="ParadoxVPN на смартфоне — подключено" width="540" height="1080">
+    <img src="img/phone.png" alt="ParadoxVPN на смартфоне — подключено" width="430" height="860">
   </div>
 </header>
 
@@ -194,20 +171,20 @@ footer{padding:44px 20px 60px;max-width:1400px;margin:0 auto}
         <text class="g-city" x="440" y="258">Сингапур</text>
       </svg>
     </div>
-    <div data-seq>
+    <div>
       <h2>Одна подписка.<br>Вся планета.</h2>
       <p class="sub">Серверы по всему миру, трафик идёт по кратчайшему пути. Современные протоколы маскируются под обычный трафик и проходят там, где другие молчат.</p>
       <div class="chips"><span class="chip">VLESS</span><span class="chip">Trojan</span><span class="chip">Hysteria 2</span></div>
     </div>
   </section>
 
-  <section class="tile reveal" data-seq>
+  <section class="tile reveal">
     <h2 class="huge grad">Бесплатно.</h2>
     <h2 class="huge">Без скрытых платежей.</h2>
   </section>
 
   <section class="tile reveal">
-    <div class="privacy-lines" data-seq>
+    <div class="privacy-lines">
       <p>Твой трафик.</p>
       <p>Твои данные.</p>
       <p>Твоё дело.</p>
@@ -215,9 +192,9 @@ footer{padding:44px 20px 60px;max-width:1400px;margin:0 auto}
     <p class="sub" style="margin-top:20px">Никаких журналов подключений и истории. Приватность встроена в саму архитектуру.</p>
   </section>
 
-  <section class="tile tile--full tile-gradient reveal" data-seq>
+  <section class="tile tile--full tile-gradient reveal">
     <div class="icon-circle">
-      <svg viewBox="0 0 24 24" fill="none" stroke="#a855f0" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+      <svg viewBox="0 0 24 24" fill="none" stroke="#e08a5e" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
         <line x1="12" y1="2" x2="12" y2="22"/>
         <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
       </svg>
@@ -226,7 +203,7 @@ footer{padding:44px 20px 60px;max-width:1400px;margin:0 auto}
     <p class="sub">Честная скорость без троттлинга. Смотреть, качать, стримить — сколько угодно.</p>
   </section>
 
-  <section class="tile tile--full reveal" data-seq>
+  <section class="tile tile--full reveal">
     <h2>Все платформы.</h2>
     <p class="sub">iOS, Android, macOS, Windows, Linux и Android TV. Одна подписка — все устройства.</p>
     <div class="chips"><span class="chip">iOS</span><span class="chip">Android</span><span class="chip">macOS</span><span class="chip">Windows</span><span class="chip">Linux</span><span class="chip">TV</span></div>
@@ -234,7 +211,7 @@ footer{padding:44px 20px 60px;max-width:1400px;margin:0 auto}
 
 </main>
 
-<section class="cta mesh" data-seq>
+<section class="cta mesh">
   <img class="cta-appicon" src="img/logo.png" alt="" width="92" height="92">
   <h2>Начните с ParadoxVPN.</h2>
   <p>Подключение за минуту. Без регистрации и без влияния на ваш кошелёк.*</p>
@@ -251,13 +228,10 @@ footer{padding:44px 20px 60px;max-width:1400px;margin:0 auto}
 
 <script>
 const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
-document.querySelectorAll('[data-seq]').forEach(box => {
-  [...box.children].forEach((el, i) => el.style.transitionDelay = (i * 140) + 'ms');
-});
 const io = new IntersectionObserver(es => es.forEach(e => {
   if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target); }
-}), { threshold: .2 });
-document.querySelectorAll('.reveal, .mesh, [data-seq]').forEach(el => reduce ? el.classList.add('visible') : io.observe(el));
+}), { threshold: .15 });
+document.querySelectorAll('.reveal').forEach(el => reduce ? el.classList.add('visible') : io.observe(el));
 </script>
 </body>
 </html>
