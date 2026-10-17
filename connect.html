@@ -18,7 +18,8 @@
   --blue:#0071e3;
   --radius:28px;
   --gap:12px;
-  --font:"SF Pro Display","SF Pro Text",-apple-system,BlinkMacSystemFont,"Helvetica Neue",Inter,Arial,sans-serif;
+  --font:"Inter",Arial,Helvetica,sans-serif;
+  --mono:ui-monospace,Menlo,Consolas,"Liberation Mono",monospace;
 }
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:var(--font);background:var(--bg);color:var(--text);-webkit-font-smoothing:antialiased;line-height:1.5}
@@ -98,7 +99,7 @@ img{max-width:100%;height:auto;display:block}
 .subbox p{font-size:13px;color:var(--muted);margin-bottom:12px}
 .subrow{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
 .suburl{flex:1;min-width:200px;background:#fff;border-radius:12px;padding:12px 14px;
-  font-family:"SF Mono",ui-monospace,Menlo,Consolas,monospace;font-size:13px;color:var(--muted);word-break:break-all}
+  font-family:var(--mono);font-size:13px;color:var(--muted);word-break:break-all}
 .tv-layout{display:grid;gap:36px}
 @media (min-width:1024px){
   .tv-layout{grid-template-columns:.85fr 1.15fr;gap:64px;align-items:center}
