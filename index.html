@@ -70,7 +70,10 @@ img{max-width:100%;height:auto;display:block}
 @media (min-width:1024px){
   .hero{padding-top:120px}
 }
-.tiles{max-width:1400px;margin:var(--gap) auto 0;padding:0 12px;display:grid;grid-template-columns:1fr;gap:var(--gap)}
+
+/* --- ДОБАВИЛИ z-index для карточек, чтобы они были ПОВЕРХ градиента --- */
+.tiles{max-width:1400px;margin:var(--gap) auto 0;padding:0 12px;display:grid;grid-template-columns:1fr;gap:var(--gap);position:relative;z-index:20}
+
 .tile{background:var(--tile);border-radius:var(--radius);padding:52px 26px;position:relative;overflow:hidden;box-shadow:0 10px 40px rgba(0,0,0,.05)}
 .tile h2{font-size:clamp(34px,4.6vw,64px);font-weight:700;letter-spacing:-.028em;line-height:1.07;margin-bottom:16px}
 .tile p.sub{font-size:clamp(16px,1.6vw,21px);font-weight:400;color:var(--muted);max-width:640px}
@@ -119,12 +122,34 @@ img{max-width:100%;height:auto;display:block}
   .icon-circle{width:164px;height:164px}
   .icon-circle svg{width:80px;height:80px}
 }
-.cta{margin:var(--gap) 0 0;padding:120px 20px;text-align:center}
+
+/* --- ИЗМЕНЕНО ЗДЕСЬ: Блок заезжает под карточку, а градиент становится длиннее --- */
+.cta{
+  margin:-120px 0 0; /* Заезжаем под карточку "Все платформы" на 120px */
+  padding:240px 20px 120px; /* Увеличиваем padding-top, чтобы текст остался на месте */
+  text-align:center;
+  position:relative;
+  z-index:10; /* Ниже карточек (20), но выше фона */
+}
+.cta::before{
+  content:"";
+  position:absolute;
+  top:0; left:0; width:100%; height:350px; /* Высокий градиент */
+  background:linear-gradient(to bottom, var(--bg) 0%, rgba(245,245,247,0) 100%);
+  z-index:3; /* Перекрываем цветной mesh-фон, чтобы сделать плавный переход */
+  pointer-events:none;
+}
+.cta > * {
+  position:relative;
+  z-index:4; /* Текст поверх градиента */
+}
+/* ---------------------------------------------------------------------- */
+
 .cta-appicon{width:92px;height:92px;border-radius:22px;object-fit:cover;margin:0 auto 28px}
 .cta h2{font-size:clamp(40px,6.4vw,96px);font-weight:700;letter-spacing:-.03em;line-height:1.04;margin-bottom:20px}
 .cta p{font-size:clamp(17px,2vw,27px);font-weight:600;letter-spacing:-.01em;max-width:760px;margin:0 auto 36px}
 @media (min-width:1024px){
-  .cta{padding:180px 40px}
+  .cta{padding:320px 40px 180px} /* Сохраняем пропорции на десктопе */
 }
 footer{padding:44px 20px 60px;max-width:1400px;margin:0 auto}
 .foot-links{display:flex;gap:24px;flex-wrap:wrap;margin-bottom:24px}
